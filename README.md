@@ -4,7 +4,7 @@
 
 Равиль Ахтямов · Digital Economy Lab · WP-2026-10 · версия 2.0 · 17 ноября 2026 г.
 
-[Текст исследования (PDF)](DEL_WP_2026_10_v2.pdf) · [Редактируемая версия (DOCX)](DEL_WP_2026_10_v2.docx) · [Расчёты и данные](research/)
+[Читать полный текст на сайте](https://digitaleconomylab.ru/wp-2026-10) · [HTML-версия](WP-2026-10.html) · [Код и данные](research/) · [Zenodo](https://doi.org/10.5281/zenodo.24319580)
 
 ## Аннотация
 
