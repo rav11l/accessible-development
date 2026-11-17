@@ -1,0 +1,66 @@
+{
+  "version": "WP-2026-10 v2.0",
+  "date": "2026-11-17",
+  "status": "illustrative_not_estimated",
+  "unit": "constant_price_arbitrary_currency_unit",
+  "baseline": {
+    "years": 10,
+    "initial_investment": 10000000,
+    "eligible_operations_per_year": 200000,
+    "adoption": 0.5,
+    "resource_saving_per_operation": 50,
+    "operating_cost_per_year": 1000000,
+    "real_discount_rate": 0.08,
+    "residual_value": 0
+  },
+  "private_entry": {
+    "fixed_costs": [
+      1000,
+      5000,
+      10000
+    ],
+    "saving_per_operation": 50
+  },
+  "saving_sensitivity": [
+    20,
+    50,
+    80
+  ],
+  "ramp_adoption": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "annual_loss_stress": 500000,
+  "replacement_year": 5,
+  "replacement_cost": 4000000,
+  "scenarios": {
+    "start_year": 2026,
+    "end_year": 2050,
+    "initial_adoption": 0.1,
+    "paths": [
+      {
+        "name": "Ограниченное",
+        "maximum": 0.4,
+        "speed": 0.08
+      },
+      {
+        "name": "Постепенное",
+        "maximum": 0.65,
+        "speed": 0.12
+      },
+      {
+        "name": "Ускоренное",
+        "maximum": 0.85,
+        "speed": 0.18
+      }
+    ]
+  }
+}

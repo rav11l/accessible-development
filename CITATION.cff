@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this working paper using the metadata below."
+type: report
+title: "Общество доступного развития: модульная интеграция и расширение человеческих возможностей в Евразии"
+authors:
+  - family-names: "Ахтямов"
+    given-names: "Равиль"
+    affiliation: "Digital Economy Lab"
+    orcid: "https://orcid.org/0000-0002-0783-8573"
+version: "2.0"
+date-released: "2026-11-17"
+license: CC-BY-4.0
+keywords:
+  - Eurasian integration
+  - human capabilities
+  - cultural participation
+  - science and technology
+  - modular cooperation
+  - science fiction
+
+doi: 10.5281/zenodo.24319580
+repository-code: "https://github.com/rav11l/accessible-development"
+url: "https://digitaleconomylab.ru/wp-2026-10"

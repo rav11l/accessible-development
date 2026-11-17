@@ -1,0 +1,40 @@
+{
+  "title": "Общество доступного развития: модульная интеграция и расширение человеческих возможностей в Евразии",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "<p>Работа исследует, при каких условиях модульная кооперация в Евразии расширяет реальные возможности человека. Предлагается совместный анализ трёх измерений: культурной свободы и участия, способности создавать и использовать научное знание, экономической жизнеспособности и распределения выгод. Метод объединяет целевой обзор международных исследований, сопоставление шести национальных стратегий, исторический срез EGDI, иллюстративную экономическую модель и протокол будущего смешанного исследования. Показано в рамках модели, что положительный общественный результат совместим с недоступностью подключения для малых предприятий; поэтапное освоение сервиса и расходы жизненного цикла существенно меняют расчёт. Разработаны показатели эффективного доступа и три связанных направления проверки: цифровой контракт, общая научная инфраструктура, многоязычная поддержка участия. Советская и восточноевропейская научная фантастика рассматривается отдельно как источник вопросов о целях развития, власти экспертизы и достоверности благополучия. Ефремов, Стругацкие и Лем помогают поставить эти вопросы, но не заменяют эмпирическую проверку. Новые причинные эффекты и прогноз прироста ВВП не заявляются. Основной вывод: доступное развитие требует одновременно расширения возможностей, способности независимо проверять результат и жизнеспособных правил финансирования.</p><p>This conceptual and methodological paper examines when modular cooperation in Eurasia expands effective human opportunities. It connects cultural freedom, scientific and technological capabilities, and economic viability through a purposive literature review, six national strategy cases, a historical EGDI snapshot, illustrative calculations and a prospective mixed-method evaluation design. The model separates aggregate social value from affordable participation and tests adoption delays, operational losses and asset replacement. Proposed indicators cover digital contracts, shared research infrastructure and multilingual participation. Soviet and Eastern European science fiction, including Efremov, the Strugatsky brothers and Lem's The Futurological Congress, supplies questions about development goals, expert power and verifiable welfare. Literary interpretation is distinguished from empirical evidence. No new causal estimates or GDP forecasts are claimed. Accessible development requires effective opportunities, independently verifiable outcomes and viable financing institutions.</p><p>Working paper WP-2026-10, version 2.0. The model is illustrative; no new causal estimates or GDP forecast are claimed. Independent external peer review is not claimed.</p>",
+  "creators": [
+    {
+      "name": "Akhtyamov, Ravil",
+      "affiliation": "Digital Economy Lab",
+      "orcid": "0000-0002-0783-8573"
+    }
+  ],
+  "version": "2.0",
+  "publication_date": "2026-11-17",
+  "language": "rus",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Eurasian integration",
+    "human capabilities",
+    "modular cooperation",
+    "culture",
+    "science and technology",
+    "science fiction",
+    "Станислав Лем"
+  ],
+  "doi": "10.5281/zenodo.24319580",
+  "related_identifiers": [
+    {
+      "identifier": "https://digitaleconomylab.ru/wp-2026-10",
+      "scheme": "url",
+      "relation": "isIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/rav11l/accessible-development",
+      "scheme": "url",
+      "relation": "isSupplementedBy"
+    }
+  ]
+}
