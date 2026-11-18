@@ -1,0 +1,1280 @@
+<!doctype html><html lang="en" data-wp10-lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A Society of Accessible Development — WP-2026-10</title><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Jost:wght@400;500;600&amp;display=swap" rel="stylesheet"><style>
+#rec5849329601,#rec5849330001,#rec5849330101,#rec5849329701,#rec5849329901,#rec5849329801{display:none!important}
+.wp10{background:#f6f4ed;color:#183c42;font:18px/1.75 Arial,sans-serif;overflow-wrap:break-word}
+.wp10 *{box-sizing:border-box}.wp10 .wrap{max-width:1120px;margin:auto;padding:0 32px}.wp10 a{color:#245d66;text-decoration-thickness:1px;text-underline-offset:4px}
+.wp10 .topnav{display:flex;justify-content:space-between;gap:20px;padding:25px 0;border-bottom:1px solid #cdd8d2;font-size:13px;letter-spacing:.06em}.wp10 .topnav a{text-decoration:none;font-weight:bold}
+.wp10 header{padding:60px 0 40px;max-width:940px}.wp10 .eyebrow{font-size:12px;font-weight:bold;letter-spacing:.13em;text-transform:uppercase;color:#627368}
+.wp10 h1{font:normal clamp(40px,6vw,70px)/1.08 Georgia,serif;letter-spacing:-.035em;margin:20px 0 25px}.wp10 .subtitle{font-size:24px;line-height:1.45;max-width:850px}
+.wp10 .meta{color:#5c6f72;font-size:14px}.wp10 .quicklinks{display:flex;gap:14px 24px;flex-wrap:wrap;margin-top:25px;font-size:15px}
+.wp10 .toc{border-top:1px solid #cdd8d2;border-bottom:1px solid #cdd8d2;padding:30px 0;margin:0 0 40px}.wp10 .toc h2{margin:0 0 18px;font:normal 30px/1.2 Georgia,serif}.wp10 .toc ul{columns:2;column-gap:40px;list-style:none;padding:0;margin:0;font-size:15px}.wp10 .toc li{break-inside:avoid;margin:0 0 10px}.wp10 .toc a{text-decoration:none}
+.wp10 .paper{max-width:850px;margin:0 auto}.wp10 h2{font:normal 35px/1.25 Georgia,serif;margin:55px 0 24px;padding-top:30px;border-top:1px solid #cdd8d2;scroll-margin-top:25px}.wp10 h3{font:600 22px/1.4 Arial,sans-serif;margin:35px 0 18px;scroll-margin-top:25px}
+.wp10 p{margin:0 0 20px}.wp10 figure{margin:30px 0 14px}.wp10 img{max-width:100%;height:auto;display:block;background:white}.wp10 .caption{font-size:14px;color:#5c6f72;line-height:1.6}.wp10 .reference{font-size:15px;line-height:1.65;scroll-margin-top:24px}
+.wp10 .table-scroll{overflow-x:auto;margin:22px 0 30px;border:1px solid #cdd8d2;background:#fbfaf6}.wp10 table{border-collapse:collapse;width:100%;min-width:600px;font-size:14px;line-height:1.55}.wp10 th,.wp10 td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid #dce2dc;border-right:1px solid #dce2dc}.wp10 th{background:#e7ece5;font-weight:600}.wp10 td p,.wp10 th p{margin:0}.wp10 tr:last-child td{border-bottom:0}
+.wp10 .materials{padding:0 0 32px}.wp10 details{border-bottom:1px solid #cdd8d2;padding:16px 0;font-size:15px}.wp10 summary{cursor:pointer;font-weight:600}.wp10 pre{font:13px/1.6 Consolas,monospace;white-space:pre;overflow:auto;max-height:650px;padding:18px;background:#e9eee8;color:#183c42;margin-top:15px}.wp10 .citation{border-left:3px solid #b18b54;padding-left:22px;font-size:16px}
+.wp10 footer{border-top:1px solid #cdd8d2;padding:30px 0 45px;font-size:13px;color:#5c6f72}.wp10 a:focus-visible,.wp10 summary:focus-visible,.wp10 .table-scroll:focus-visible{outline:2px solid #9c743b;outline-offset:5px}
+@media(max-width:720px){.wp10{font-size:17px;line-height:1.7}.wp10 .wrap{padding:0 20px}.wp10 header{padding:38px 0 28px}.wp10 .topnav{font-size:10px;gap:10px}.wp10 .subtitle{font-size:20px}.wp10 h2{font-size:29px;margin-top:40px}.wp10 h3{font-size:20px}.wp10 .toc ul{columns:1}.wp10 table{font-size:13px}.wp10 th,.wp10 td{padding:10px}}
+@media print{.wp10 .toc,.wp10 .quicklinks,.wp10 .materials{display:none}.wp10{background:white;color:black;font-size:11pt}.wp10 .wrap,.wp10 .paper{max-width:none;padding:0}.wp10 h2,.wp10 h3{break-after:avoid}.wp10 figure,.wp10 tr{break-inside:avoid}.wp10 .table-scroll{overflow:visible}.wp10 table{min-width:0}}
+
+.wp10{background:#f7f4ee;color:#142233;font-family:Jost,Arial,sans-serif;font-size:18px;line-height:1.75}.wp10 a{color:#142233}.wp10 .wrap{max-width:960px;padding:0 34px}.wp10 .paper{max-width:790px}.wp10 .topnav{justify-content:flex-start;gap:14px;border:0;font-size:13px;padding:28px 0 0;letter-spacing:0;color:#615e57}.wp10 .topnav a{font-weight:400}.wp10 header{padding:28px 0 25px}.wp10 h1{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(40px,4.8vw,58px);font-weight:600;line-height:1.1;letter-spacing:-.015em;border-top:1px solid #ded5c5;padding-top:36px}.wp10 h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:36px;border-color:#ded5c5}.wp10 h3{font-family:Jost,Arial,sans-serif;font-size:21px}.wp10 .subtitle{font-family:Jost,Arial,sans-serif;font-size:21px;font-style:italic;color:#615e57}.wp10 .meta{color:#615e57}.wp10 .eyebrow{color:#142233;letter-spacing:.17em;font-size:12px}.wp10 .wp-city{background:#101e2a;color:#f7f4ee;display:flex;justify-content:space-between;padding:5px max(24px,calc((100% - 1120px)/2));font-size:10px;letter-spacing:.16em}.wp10 .wp-city a{color:inherit;text-decoration:none}.wp10 .wp-sitehead{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px max(24px,calc((100% - 1120px)/2));border-bottom:1px solid #ded5c5}.wp10 .wp-brand{display:flex;align-items:center;gap:12px;text-decoration:none;white-space:nowrap;font-family:'Cormorant Garamond',Georgia,serif;font-size:23px;line-height:1.1}.wp10 .wp-brand svg{width:27px;height:27px;fill:#142233}.wp10 .gh-bs{display:block;font:12px/1.6 Jost,Arial,sans-serif;color:#615e57}.wp10 .wp-sitehead nav{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}.wp10 .wp-sitehead nav a{text-decoration:none;color:#615e57}.wp10 .wp-badges{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;margin:24px 0 14px;font-size:13px}.wp10 .wp-status{background:#eee7d7;padding:6px 10px;letter-spacing:.07em;font-weight:600}.wp10 .doi-badge{display:inline-flex;text-decoration:none;font:12px/1.6 Arial,sans-serif}.wp10 .doi-badge b{background:#142233;color:white;padding:5px 8px}.wp10 .doi-badge span{background:#4b667a;color:white;padding:5px 9px}.wp10 .wp-findings{padding:27px 30px;background:#efeade;border-top:2px solid #142233;margin:10px 0 35px}.wp10 .wp-findings ol{padding-left:22px;margin:18px 0}.wp10 .wp-findings li{padding-left:8px;margin-bottom:14px}.wp10 .wp-findings .meta{margin:0}.wp10 .toc{border-color:#ded5c5}.wp10 .caption{color:#615e57}.wp10 th{background:#eee7d7}.wp10 .table-scroll{border-color:#ded5c5}.wp10 footer{border-color:#ded5c5}.wp10 .quicklinks a{border-bottom:1px solid #a88a4e;text-decoration:none}
+@media(min-width:1350px){.wp10 .toc{position:fixed;top:130px;left:max(20px,calc((100vw - 1510px)/2));width:205px;padding:14px 10px 15px 0;max-height:calc(100vh - 165px);overflow:auto;border-top:2px solid #142233;border-bottom:0}.wp10 .toc h2{font:600 13px/1.4 Jost,Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:#7a6232;border:0;padding:0;margin:0 0 16px}.wp10 .toc ul{columns:1;font-size:12px;line-height:1.45}.wp10 .toc li{margin-bottom:10px}.wp10 .toc a:hover{color:#6e1e2b}.wp10 .wrap{margin-left:max(245px,calc((100vw - 1020px)/2));margin-right:auto;max-width:930px}}
+@media(max-width:850px){.wp10 .wp-sitehead{align-items:flex-start;flex-wrap:wrap;padding:18px 22px;gap:15px}.wp10 .wp-sitehead nav{gap:12px 18px;font-size:12px}.wp10 .wrap{padding:0 22px}.wp10 .wp-findings{padding:22px}.wp10 .wp-brand{font-size:22px}.wp10 h1{padding-top:25px}.wp10 .wp-badges{gap:10px}.wp10 .topnav{gap:10px;flex-wrap:wrap}}
+
+.wp10 .figure-svg{margin:24px 0 12px;background:white;border:1px solid #ded5c5}
+.wp10 .figure-svg svg{display:block;width:100%;height:auto}
+.wp10 .wp-language{display:inline-flex;border:1px solid #ded5c5;align-self:center;margin-left:2px}
+.wp10 .wp-language a{display:block;padding:5px 10px;font:500 12px/1.5 Jost,Arial,sans-serif;letter-spacing:.06em}
+.wp10 .wp-language a[aria-current="page"]{color:#fff;background:#142233}
+.wp10 .wp-language a:focus-visible{outline:2px solid #a88a4e;outline-offset:3px}
+.wp10 .wp-translation-note{font-size:13px;border-left:2px solid #a88a4e;padding-left:12px;margin-top:22px}
+.wp10[lang="en"]{display:none}
+html[data-wp10-lang="en"] .wp10[lang="ru"]{display:none}
+html[data-wp10-lang="en"] .wp10[lang="en"]{display:block}
+@media print{.wp10 .toc,.wp10 .wp-sitehead,.wp10 .wp-city,.wp10 .topnav{display:none!important}.wp10 .wrap{margin:0!important;padding:0!important;max-width:none!important}.wp10 a{overflow-wrap:anywhere}}
+</style></head><body><article id="wp10-en" lang="en" class="wp10"><div class="wp-city"><span>KAZAN</span><a href="https://t.me/digitaleconomylab">TELEGRAM</a></div><div class="wp-sitehead"><a class="wp-brand" href="/?lang=en"><svg viewbox="0 0 200 200" aria-hidden="true"><g transform="rotate(-12 100 100)"><path fill-rule="evenodd" d="M100.00,5.00 L114.54,64.89 L146.67,53.33 L135.11,85.46 L184.00,100.00 L135.11,114.54 L149.50,149.50 L114.54,135.11 L100.00,190.00 L85.46,135.11 L54.75,145.25 L64.89,114.54 L14.00,100.00 L64.89,85.46 L51.92,51.92 L85.46,64.89 Z M100.00,94.00 C91.00,83.80 93.35,69.52 96.50,62.72 Q98.25,66.12 100.00,68.84 Q101.75,66.12 103.50,62.72 C106.65,69.52 109.00,83.80 100.00,94.00 Z M106.00,100.00 C116.20,91.00 130.48,93.35 137.28,96.50 Q133.88,98.25 131.16,100.00 Q133.88,101.75 137.28,103.50 C130.48,106.65 116.20,109.00 106.00,100.00 Z M100.00,106.00 C109.00,116.20 106.65,130.48 103.50,137.28 Q101.75,133.88 100.00,131.16 Q98.25,133.88 96.50,137.28 C93.35,130.48 91.00,116.20 100.00,106.00 Z M94.00,100.00 C83.80,109.00 69.52,106.65 62.72,103.50 Q66.12,101.75 68.84,100.00 Q66.12,98.25 62.72,96.50 C69.52,93.35 83.80,91.00 94.00,100.00 Z"></path></g></svg><span><span class="gh-bn">Digital Economy Lab</span><span class="gh-bs"><span class="gh-ru">Ravil Akhtyamov</span></span></span></a><nav aria-label="Laboratory sections"><a href="/?lang=en#tools">Tools</a><a href="/?lang=en#research">Research</a><a href="/?lang=en#talks">Talks</a><a href="/?lang=en#programs">Programmes</a><a href="/?lang=en#about">About the author</a><span class="wp-language" aria-label="Language"><a href="/wp-2026-10?lang=ru" lang="ru" hreflang="ru" aria-label="Full text in Russian">RU</a><a href="/wp-2026-10?lang=en" lang="en" hreflang="en" aria-label="Full text in English" aria-current="page">EN</a></span></nav></div><div class="wrap"><nav class="topnav" aria-label="Breadcrumb"><a href="/?lang=en">← Home</a><span>/</span><a href="/wp?lang=en">Working papers</a><span>/ WP-2026-10</span></nav><header><div class="eyebrow">Digital Economy Lab · Working paper WP-2026-10</div><h1>A Society of Accessible Development</h1><p class="subtitle">Modular Integration and Expanding Human Capabilities in Eurasia</p><p class="meta">Ravil Akhtyamov · Candidate of Economic Sciences, digital economist · Digital Economy Lab</p><div class="wp-badges"><span class="wp-status">PUBLISHED · 17 NOV 2026</span><span>Version 2.0</span><span>CC BY 4.0</span><a class="doi-badge" href="https://doi.org/10.5281/zenodo.24319580"><b>DOI</b><span>10.5281/zenodo.24319580</span></a></div><p class="meta">Discussion paper · 11 sections · 5 tables · 4 figures · 48 references</p><div class="quicklinks"><a href="#en-contents">Contents</a><a href="#en-section-1" lang="en">Abstract</a><a href="#en-materials">Code and data</a></div><p class="meta wp-translation-note">Complete English translation · 18 November 2026<br>Research version 2.0 · 17 November 2026</p></header><section class="wp-findings" aria-label="Key findings"><div class="eyebrow">Key findings</div><ol><li><strong>Aggregate benefits and affordable participation require separate calculations.</strong> A positive social outcome can coexist with connection costs that small businesses cannot afford.</li><li><strong>The result depends on the full lifecycle.</strong> Phased service adoption, operational losses and equipment replacement substantially change the illustrative calculation.</li><li><strong>Access is assessed across three dimensions.</strong> Cultural freedom and participation, scientific and technological capabilities, and the economics and distribution of benefits are linked in a single evaluation protocol.</li></ol><p class="meta">The calculations use hypothetical parameters. The paper does not claim new causal estimates or forecast GDP growth.</p></section><nav class="toc" aria-label="Paper contents" id="en-contents"><h2>Contents</h2><ul><li><a href="#en-section-1">Abstract</a></li><li><a href="#en-section-3">1 Research question and scope</a></li><li><a href="#en-section-4">2 Theoretical foundations</a></li><li><a href="#en-section-7">3 National strategies and opportunities for cooperation</a></li><li><a href="#en-section-9">4 Digital readiness and the limits of rankings</a></li><li><a href="#en-section-10">5 Measuring a society of accessible development</a></li><li><a href="#en-section-14">6 Modular integration and the digital contract</a></li><li><a href="#en-section-15">7 The economics of participation and the distribution of benefits</a></li><li><a href="#en-section-18">8 Testable hypotheses and pilot design</a></li><li><a href="#en-section-20">9 Scenarios to 2050</a></li><li><a href="#en-section-22">10 Science fiction in the USSR and Eastern Europe</a></li><li><a href="#en-section-28">11 Conclusions and research agenda</a></li><li><a href="#en-section-29">Appendix A Evidence status and quality assurance</a></li><li><a href="#en-section-30">Appendix B Reproducibility</a></li><li><a href="#en-section-31">References</a></li><li><a href="#en-materials">Code, parameters and data</a></li></ul></nav><div class="paper"><h2 id="en-section-1">Abstract</h2>
+<p class="">This paper examines the conditions under which modular cooperation in Eurasia expands people's effective opportunities. It proposes a joint analysis of three dimensions: cultural freedom and participation, the capacity to create and use scientific knowledge, and economic viability and the distribution of benefits. The method combines a purposive review of international research, a comparison of six national strategies, a historical EGDI snapshot, an illustrative economic model and a protocol for a future mixed-method study. Within the model, a positive social outcome is shown to be compatible with participation being unaffordable for small enterprises; phased service adoption and lifecycle costs substantially change the calculation. Indicators of effective access and three connected areas for evaluation are developed: the digital contract, shared research infrastructure and multilingual support for participation. Soviet and Eastern European science fiction is considered separately as a source of questions about development goals, the power of expertise and the credibility of claims about well-being. Efremov, the Strugatsky brothers and Lem help formulate these questions but do not replace empirical testing. No new causal effects or GDP growth forecasts are claimed. The main conclusion is that accessible development requires an expansion of capabilities, the capacity to verify outcomes independently and viable financing rules together.</p>
+<p class="">Keywords: human capabilities; cultural freedom; research infrastructure; modular integration; technological diffusion; digital contract; Soviet science fiction; Stanisław Lem.<br>
+JEL: F15, O15, O32, O33, Z10, D63.</p>
+<h2 id="en-section-3">1 Research question and scope</h2>
+<p class="">Integration is usually discussed in terms of trade volumes, investment and market size. These indicators matter, but on their own they do not tell us what people outside the largest economic centres gain. Increased traffic through a transport corridor may bypass local producers. A new digital service can reduce average costs while setting a connection price that is too high for a small company. Shared research infrastructure may serve only a few major universities.</p>
+<p class="">I define a society of accessible development as an institutional and infrastructural arrangement in which people have effective opportunities to learn, perform skilled work, start a business and participate in public life, regardless of their starting position. This is not a promise of identical outcomes. It concerns reducing avoidable barriers associated with birthplace, family income, place of residence, language or health-related limitations. The opportunity to remain in one's home town must coexist with the freedom to move. Restraining migration is not a criterion of success.</p>
+<p class="">The research question is as follows: under what conditions do voluntary sectoral projects between sovereign states broaden access to development, and under what conditions do they primarily reinforce existing centres? Answering it requires linking three levels: legal and technical interoperability, the economics of organisational participation, and the capabilities of individual people. There is no automatic transition between these levels.</p>
+<p class="">The paper is conceptual and methodological. It contains no individual-level dataset, completed pilot or identified causal effect. Its observational component is limited to official documents and a comparable EGDI snapshot for 2024. Formal calculations rely on explicitly stated assumptions. The proposed research design describes how to obtain the missing data; it does not substitute for those data.</p>
+<p class="">Eurasia is understood as a space for possible cooperation, rather than a project for a predetermined political union. The statistical sample of 15 countries does not determine the membership of future agreements. The experiences of Georgia, Moldova and other post-Soviet countries are considered with respect for the independence of their trajectories. The feasibility of any particular cooperation depends on existing commitments, legal conditions and the parties' voluntary consent.</p>
+<h2 id="en-section-4">2 Theoretical foundations</h2>
+<p class="">The concept draws on Amartya Sen's capability approach, which shifts the assessment of development from the possession of resources to people's opportunities to undertake activities they value. A central point for our question is that identical resources do not ensure equal access: an educational platform offers little benefit without an appropriate language of instruction, connectivity, time and recognition of qualifications. The World Development Report 2006 also relates equality of opportunity to circumstances people do not choose, including their birthplace. The framework proposed here develops this line of reasoning for cross-border projects. [1, 2]</p>
+<p class="">The second foundation is polycentric governance. Elinor Ostrom demonstrated the importance of multiple interacting decision-making centres in governing complex systems. For regional cooperation, this provides grounds for considering multiple operators and levels of responsibility, but it does not prove that all decentralisation is effective. Uncoordinated centres can duplicate functions, shift risks onto others and block decisions. Modularity must therefore be accompanied by clear coordination rules. [3]</p>
+<p class="">The third strand is multidimensional measurement. The Alkire–Foster approach helps explain why an average indicator conceals combinations of deprivations and why thresholds matter in their own right. This paper does not mechanically transfer their index to a new task. Instead of a ready-made composite ranking, it proposes an access profile across separate dimensions. Choosing thresholds and weights is a substantive decision that should be debated rather than concealed behind mathematics. [4]</p>
+<p class="">The paper's contribution is to connect these approaches with the economics of joining interoperable infrastructure. The claimed novelty lies in the research framework: the unit of analysis becomes the chain 'rule—service—organisation—human capability'. The paper does not claim to have discovered the idea of equal opportunity or to have proved the universal superiority of modular systems.</p>
+<h3 id="en-section-5">2.1 International research benchmarks</h3>
+<p class="">The review is organised around research tasks. Sources were selected for conceptual clarity, methodological transparency, data traceability and relevance to a specific cooperation mechanism. This is a purposive analytical review, not a systematic search of all literature or a ranking of schools of thought. International studies serve as methodological benchmarks; accepting an approach does not make its findings automatically transferable to Eurasia.</p>
+<p class="">The capability approach is complemented by the Human Development Report 2004 on cultural liberty: the ability to use one's own language and participate in shaping cultural life has intrinsic value [24]. In Jasanoff and Kim's research on sociotechnical imaginaries, visions of technical progress are considered together with ideas about collective purposes and power [25]. For this working paper, this means examining not only experts' expectations but also who is entitled to define a desirable future.</p>
+<p class="">The UNESCO Culture|2030, Frascati and Oslo frameworks distinguish cultural participation, research resources and the implementation of innovations [26, 28, 29]. They do not constitute a ready-made common index. Their contribution here is disciplined definitions and the separation of inputs, immediate outputs and societal changes. The project indicators proposed below are the author's adaptation, not official indicators of these organisations.</p>
+<p class="">The study by Andrews, Criscuolo and Gal compares firms at the productivity frontier with other firms, using microdata from OECD countries to analyse the diffusion of technological advantages [34]. This paper borrows its framing of the diffusion question: the existence of a leading centre does not in itself describe the capabilities of other organisations. Numerical estimates from that international sample are not transferred into this working paper's model.</p>
+<p class="">The economic assessment draws on the distinction between financial and social outcomes in the European Commission/JASPERS Economic Appraisal Vademecum [35]. Florio, Forte and Sirtori's study of the LHC illustrates how to account separately for groups receiving scientific, educational, technological and cultural benefits [36]. It is a model-based appraisal, not experimental evidence of returns actually realised; its monetary coefficients are not used here.</p>
+<p class="">For a programme comprising several projects, OECD work on mission evaluation and the additional effects of coordination is relevant [37, 38]. It calls for examining how goals relate to authority, budgets and implementation. The proposed modular architecture must demonstrate its value relative to a simpler alternative: for example, bilateral recognition of a document or funding a local laboratory without creating a new shared platform.</p>
+<h3 id="en-section-6">2.2 Connecting the three dimensions</h3>
+<p class="">The following sequence is proposed for evaluation: agreed rules and financing create an accessible service; an organisation gains the ability to use it; a participant achieves an outcome while retaining freedom of subsequent choice. A break can occur at each transition. A translated interface does not remove an expensive tariff; free equipment is of little use without a trained researcher; increased turnover does not guarantee funds for modernising production.</p>
+<p class="">The cultural dimension enters this sequence through language, recognition of experience, trust and participation in selecting tasks. The scientific and technological dimension enters through equipment, knowledge, research quality and the capacity to adopt results. The economic dimension concerns full costs, incentives and the distribution of value added. These conditions are complementary, but the size and even the sign of their interaction remain to be estimated. A formula that assumes inevitable synergy from their combination would be unjustified.</p>
+<p class="">A counterexample matters more than a general slogan. A shared laboratory may simultaneously increase publication numbers and make regional universities more dependent on a central operator. A multilingual service may increase applications without raising the proportion of successfully completed procedures. An economically beneficial digital corridor may displace local intermediaries without creating comparable new jobs. Research must therefore record both capabilities gained and constraints that emerge.</p>
+<h2 id="en-section-7">3 National strategies and opportunities for cooperation</h2>
+<p class="">Six cases were selected for comparison, representing different combinations of industrial capacity, transit functions and digital development objectives. This is a purposive analytical sample, not a comprehensive review of all former Soviet or CIS countries. The analysis considers stated priorities, time horizons and possible areas of alignment. Listing a priority in a document does not mean it has been achieved; the proposed alignment is the author's interpretation, not an intergovernmental agreement.</p>
+<p class="caption">Table 1. Priorities and potential areas of alignment</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Table 1"><table><thead><tr><th scope="col"><p class=""><strong>Case and source</strong></p></th><th scope="col"><p class=""><strong>Stated priority</strong></p></th><th scope="col"><p class=""><strong>Potential module</strong></p></th></tr></thead><tbody><tr><td><p class="">Russia • 2030 and 2036 [5]</p></td><td><p class="">Technological leadership; digital transformation; human potential</p></td><td><p class="">Engineering research; industrial cooperation</p></td></tr><tr><td><p class="">Kazakhstan • 2029 [6]</p></td><td><p class="">Competition; productivity; logistics; regional development</p></td><td><p class="">Documents and logistics; SME access to services</p></td></tr><tr><td><p class="">Uzbekistan • 2026–2030 [7]</p></td><td><p class="">Updating measurable targets; digital monitoring of the strategy</p></td><td><p class="">Comparable indicators; interoperable services</p></td></tr><tr><td><p class="">Kyrgyzstan • 2030 [8]</p></td><td><p class="">Industrialisation; regional hub; green energy</p></td><td><p class="">Transport; workforce training; energy projects</p></td></tr><tr><td><p class="">Azerbaijan • 2030 [9]</p></td><td><p class="">Competitive economy; human capital; green growth</p></td><td><p class="">Logistics; education; resource efficiency</p></td></tr><tr><td><p class="">Belarus • 2040 [10]</p></td><td><p class="">Human potential; knowledge-based economy; regional development</p></td><td><p class="">R&amp;D; engineering education; digital services</p></td></tr></tbody></table></div>
+
+<p class="caption">The last column is the author's interpretation. For Belarus, the Ministry of Economy's public outline of policy directions is used; the legal status of every provision of the strategy is not established separately.</p>
+<p class="">Russia and Kazakhstan reveal differences even where terminology is similar. The Russian decree includes technological leadership and digital transformation among national goals. Kazakhstan's plan explicitly combines productivity growth with competition, entrepreneurship and preventing critical regional disparities. For a joint project, this raises an access question: will independent companies be able to use the infrastructure on comparable terms, or will the market be reserved for a few participants? The shared use of the words 'technology' and 'innovation' does not provide an answer. [5, 6]</p>
+<p class="">Uzbekistan is particularly relevant to monitoring methodology. The decree of 16 February 2026 approved an updated strategy for 2026–2030 and the digitalisation of monitoring progress towards its goals. Referring only to the 2023 version as the current strategy is therefore insufficient. For a cooperation project, the principle of linking a goal, a measurable indicator, a data source and a responsible implementing body is useful in itself. Digital monitoring, however, does not guarantee reliable reporting: independent cross-checking and the possibility of revising a poorly chosen indicator are necessary. [7]</p>
+<p class="">Kyrgyzstan, Azerbaijan and Belarus add industrialisation, human potential, green energy and regional development to the picture. Combining these priorities could support joint engineering education, industrial services and logistics projects. Yet countries also compete for investment and skilled workers. A cooperation programme must specify in advance where jobs will be located, who will own development outputs and what share of costs smaller participants will bear. [8–10]</p>
+<p class="">Practical selection of a module should begin with a specific constraint. If exports are constrained by a lack of document recognition, the priority is a legal agreement and data exchange. If electricity supply is the constraint, a software interface cannot replace generating capacity and networks. If a graduate cannot find suitable work, employer demand and recognition of skills matter. A catalogue of national strategies helps formulate questions; investment priorities must be established through a separate diagnostic assessment.</p>
+<h3 id="en-section-8">3.1 Protocol for comparing strategies</h3>
+<p class="">For each document, the goal, instrument, budget commitment, responsible implementing body, measurable outcome and revision mechanism should be coded separately. The coding unit is a specific numbered provision, not a country as a whole. Information missing from the selected text is marked 'not established from the source'; this does not imply that the instrument is absent from national policy.</p>
+<p class="">A full empirical version will require two independent coders, a disagreement log and translation checks. The present table remains a preliminary comparison of priorities. It cannot be used to rank the quality of states or to conclude that similarly named goals have the same meaning. The working output of the comparison is a list of compatible objectives and conflicts of interest, which is then tested with prospective participants.</p>
+<p class="">The cultural question for a strategy is which languages and groups are enabled to participate in project design. The scientific and technological question is where competencies are developed and who can access the results. The economic question is where value added, the tax base and investment resources remain. Agreement on these questions should precede construction of a shared service. Geographic proximity and similar rhetoric do not themselves ensure such agreement.</p>
+<h2 id="en-section-9">4 Digital readiness and the limits of rankings</h2>
+<p class="">The UN E-Government Survey 2024 snapshot shows differences in e-government development: Kazakhstan's EGDI is 0.9009, Russia's is 0.8532 and Uzbekistan's is 0.7999. Figure 1 presents all 15 countries in the selected comparison group. EGDI combines online services, telecommunications infrastructure and human capital. A single historical snapshot is deliberately used here; it is not presented as the latest available ranking at the publication date. [11]</p>
+<figure><div class="figure-svg"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="648pt" height="489.6pt" viewBox="0 0 648 489.6" version="1.1" role="img" aria-label="EGDI by country, 2024" id="enfig1-figure-1-en">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="enfig1-figure_1">
+  <g id="enfig1-patch_1">
+   <path d="M 0 489.6  L 648 489.6  L 648 0  L 0 0  z " style="fill: #ffffff"></path>
+  </g>
+  <g id="enfig1-axes_1">
+   <g id="enfig1-patch_2">
+    <path d="M 94.04125 440.277656  L 630 440.277656  L 630 33.36  L 94.04125 33.36  z " style="fill: #ffffff"></path>
+   </g>
+   <g id="enfig1-matplotlib.axis_1">
+    <g id="enfig1-xtick_1">
+     <g id="enfig1-line2d_1">
+      <path d="M 94.04125 440.277656  L 94.04125 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_2">
+      <defs>
+       <path id="enfig1-m5307f4d861" d="M 0 0  L 0 3.5  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="94.04125" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="94.04125" y="454.875313" transform="rotate(-0 94.04125 454.875313)">0.0</text>
+     </g>
+    </g>
+    <g id="enfig1-xtick_2">
+     <g id="enfig1-line2d_3">
+      <path d="M 191.488295 440.277656  L 191.488295 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_4">
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="191.488295" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="191.488295" y="454.875313" transform="rotate(-0 191.488295 454.875313)">0.2</text>
+     </g>
+    </g>
+    <g id="enfig1-xtick_3">
+     <g id="enfig1-line2d_5">
+      <path d="M 288.935341 440.277656  L 288.935341 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_6">
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="288.935341" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="288.935341" y="454.875313" transform="rotate(-0 288.935341 454.875313)">0.4</text>
+     </g>
+    </g>
+    <g id="enfig1-xtick_4">
+     <g id="enfig1-line2d_7">
+      <path d="M 386.382386 440.277656  L 386.382386 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_8">
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="386.382386" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="386.382386" y="454.875313" transform="rotate(-0 386.382386 454.875313)">0.6</text>
+     </g>
+    </g>
+    <g id="enfig1-xtick_5">
+     <g id="enfig1-line2d_9">
+      <path d="M 483.829432 440.277656  L 483.829432 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_10">
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="483.829432" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="483.829432" y="454.875313" transform="rotate(-0 483.829432 454.875313)">0.8</text>
+     </g>
+    </g>
+    <g id="enfig1-xtick_6">
+     <g id="enfig1-line2d_11">
+      <path d="M 581.276477 440.277656  L 581.276477 33.36  " clip-path="url(#enfig1-pc584f85d04)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig1-line2d_12">
+      <g>
+       <use xlink:href="#enfig1-m5307f4d861" x="581.276477" y="440.277656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="581.276477" y="454.875313" transform="rotate(-0 581.276477 454.875313)">1.0</text>
+     </g>
+    </g>
+    <g id="enfig1-text_7">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="362.020625" y="468.875313" transform="rotate(-0 362.020625 468.875313)">EGDI (0–1)</text>
+    </g>
+   </g>
+   <g id="enfig1-matplotlib.axis_2">
+    <g id="enfig1-ytick_1">
+     <g id="enfig1-line2d_13">
+      <defs>
+       <path id="enfig1-mde5692740c" d="M 0 0  L -3.5 0  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="413.333892" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="417.133111" transform="rotate(-0 87.04125 417.133111)">Turkmenistan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_2">
+     <g id="enfig1-line2d_14">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="388.117455" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="391.916673" transform="rotate(-0 87.04125 391.916673)">Tajikistan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_3">
+     <g id="enfig1-line2d_15">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="362.901017" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="366.699845" transform="rotate(-0 87.04125 366.699845)">Kyrgyzstan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_4">
+     <g id="enfig1-line2d_16">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="337.684579" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="341.483798" transform="rotate(-0 87.04125 341.483798)">Belarus</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_5">
+     <g id="enfig1-line2d_17">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="312.468141" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="316.26736" transform="rotate(-0 87.04125 316.26736)">Azerbaijan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_6">
+     <g id="enfig1-line2d_18">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="287.251704" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="291.050922" transform="rotate(-0 87.04125 291.050922)">Moldova</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_7">
+     <g id="enfig1-line2d_19">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="262.035266" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="265.834485" transform="rotate(-0 87.04125 265.834485)">Georgia</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_8">
+     <g id="enfig1-line2d_20">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="236.818828" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="240.618047" transform="rotate(-0 87.04125 240.618047)">Uzbekistan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_9">
+     <g id="enfig1-line2d_21">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="211.60239" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="215.401609" transform="rotate(-0 87.04125 215.401609)">Armenia</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_10">
+     <g id="enfig1-line2d_22">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="186.385953" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_17">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="190.185171" transform="rotate(-0 87.04125 190.185171)">Russia</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_11">
+     <g id="enfig1-line2d_23">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="161.169515" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_18">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="164.968734" transform="rotate(-0 87.04125 164.968734)">Ukraine</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_12">
+     <g id="enfig1-line2d_24">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="135.953077" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_19">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="139.752296" transform="rotate(-0 87.04125 139.752296)">Latvia</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_13">
+     <g id="enfig1-line2d_25">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="110.736639" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_20">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="114.535858" transform="rotate(-0 87.04125 114.535858)">Kazakhstan</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_14">
+     <g id="enfig1-line2d_26">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="85.520202" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_21">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="89.31942" transform="rotate(-0 87.04125 89.31942)">Lithuania</text>
+     </g>
+    </g>
+    <g id="enfig1-ytick_15">
+     <g id="enfig1-line2d_27">
+      <g>
+       <use xlink:href="#enfig1-mde5692740c" x="94.04125" y="60.303764" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig1-text_22">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="87.04125" y="64.102983" transform="rotate(-0 87.04125 64.102983)">Estonia</text>
+     </g>
+    </g>
+   </g>
+   <g id="enfig1-patch_3">
+    <path d="M 94.04125 421.781399  L 325.526706 421.781399  L 325.526706 404.886386  L 94.04125 404.886386  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_4">
+    <path d="M 94.04125 396.564961  L 367.185318 396.564961  L 367.185318 379.669948  L 94.04125 379.669948  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_5">
+    <path d="M 94.04125 371.348524  L 450.502542 371.348524  L 450.502542 354.45351  L 94.04125 354.45351  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_6">
+    <path d="M 94.04125 346.132086  L 456.787877 346.132086  L 456.787877 329.237073  L 94.04125 329.237073  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_7">
+    <path d="M 94.04125 320.915648  L 464.681087 320.915648  L 464.681087 304.020635  L 94.04125 304.020635  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_8">
+    <path d="M 94.04125 295.69921  L 470.138122 295.69921  L 470.138122 278.804197  L 94.04125 278.804197  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_9">
+    <path d="M 94.04125 270.482773  L 473.694939 270.482773  L 473.694939 253.587759  L 94.04125 253.587759  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_10">
+    <path d="M 94.04125 245.266335  L 483.780708 245.266335  L 483.780708 228.371321  L 94.04125 228.371321  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_11">
+    <path d="M 94.04125 220.049897  L 504.390758 220.049897  L 504.390758 203.154884  L 94.04125 203.154884  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_12">
+    <path d="M 94.04125 194.833459  L 509.750346 194.833459  L 509.750346 177.938446  L 94.04125 177.938446  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_13">
+    <path d="M 94.04125 169.617021  L 524.805914 169.617021  L 524.805914 152.722008  L 94.04125 152.722008  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_14">
+    <path d="M 94.04125 144.400584  L 525.341873 144.400584  L 525.341873 127.50557  L 94.04125 127.50557  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_15">
+    <path d="M 94.04125 119.184146  L 532.991466 119.184146  L 532.991466 102.289133  L 94.04125 102.289133  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_16">
+    <path d="M 94.04125 93.967708  L 537.912542 93.967708  L 537.912542 77.072695  L 94.04125 77.072695  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_17">
+    <path d="M 94.04125 68.75127  L 567.974956 68.75127  L 567.974956 51.856257  L 94.04125 51.856257  z " clip-path="url(#enfig1-pc584f85d04)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig1-patch_18">
+    <path d="M 94.04125 440.277656  L 94.04125 33.36  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig1-patch_19">
+    <path d="M 94.04125 440.277656  L 630 440.277656  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig1-text_23">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="330.526706" y="415.671783" transform="rotate(-0 330.526706 415.671783)">0.4751</text>
+   </g>
+   <g id="enfig1-text_24">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="372.185318" y="390.455345" transform="rotate(-0 372.185318 390.455345)">0.5606</text>
+   </g>
+   <g id="enfig1-text_25">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="455.502542" y="365.238908" transform="rotate(-0 455.502542 365.238908)">0.7316</text>
+   </g>
+   <g id="enfig1-text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="461.787877" y="340.02247" transform="rotate(-0 461.787877 340.02247)">0.7445</text>
+   </g>
+   <g id="enfig1-text_27">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="469.681087" y="314.806032" transform="rotate(-0 469.681087 314.806032)">0.7607</text>
+   </g>
+   <g id="enfig1-text_28">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="475.138122" y="289.589594" transform="rotate(-0 475.138122 289.589594)">0.7719</text>
+   </g>
+   <g id="enfig1-text_29">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="478.694939" y="264.373157" transform="rotate(-0 478.694939 264.373157)">0.7792</text>
+   </g>
+   <g id="enfig1-text_30">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="488.780708" y="239.156719" transform="rotate(-0 488.780708 239.156719)">0.7999</text>
+   </g>
+   <g id="enfig1-text_31">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="509.390758" y="213.940281" transform="rotate(-0 509.390758 213.940281)">0.8422</text>
+   </g>
+   <g id="enfig1-text_32">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="514.750346" y="188.723843" transform="rotate(-0 514.750346 188.723843)">0.8532</text>
+   </g>
+   <g id="enfig1-text_33">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="529.805914" y="163.507405" transform="rotate(-0 529.805914 163.507405)">0.8841</text>
+   </g>
+   <g id="enfig1-text_34">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="530.341873" y="138.290968" transform="rotate(-0 530.341873 138.290968)">0.8852</text>
+   </g>
+   <g id="enfig1-text_35">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="537.991466" y="113.07453" transform="rotate(-0 537.991466 113.07453)">0.9009</text>
+   </g>
+   <g id="enfig1-text_36">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="542.912542" y="87.858092" transform="rotate(-0 542.912542 87.858092)">0.9110</text>
+   </g>
+   <g id="enfig1-text_37">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="572.974956" y="62.641654" transform="rotate(-0 572.974956 62.641654)">0.9727</text>
+   </g>
+   <g id="enfig1-text_38">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="362.020625" y="27.36" transform="rotate(-0 362.020625 27.36)">E-government development, 2024</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="enfig1-pc584f85d04">
+   <rect x="94.04125" y="33.36" width="535.95875" height="406.917656"></rect>
+  </clipPath>
+ </defs>
+</svg></div></figure>
+<p class="caption">Figure 1. EGDI in 2024. Source: [11]. A national indicator does not measure individual access or cross-border interoperability.</p>
+<p class="">Differences between index values cannot be interpreted as the share of people deprived of opportunities or as an estimate of the future benefits of integration. A national indicator does not describe differences between the capital and a small town, nor does it measure whether a document is recognised by another jurisdiction. Two countries with high EGDI scores can have incompatible rules. Conversely, narrowly focused cooperation on a single process is possible before all components of digital development converge.</p>
+<p class="">An important implication is that technical readiness and actual access must be measured separately. A high proportion of electronic applications may reflect a mandatory switch to the digital channel even when some citizens rely on paid intermediaries. Research needs to ask who failed to complete the procedure and why, rather than relying solely on logs of successful transactions.</p>
+<h2 id="en-section-10">5 Measuring a society of accessible development</h2>
+<p class="">A dashboard covering six domains is proposed. Cultural life is added as a separate domain alongside education, work, entrepreneurship, technology and participation. The study's three dimensions run through the entire dashboard: culture shapes the ability to understand, choose and challenge; science and technology shape the capacity to investigate and create; economics concerns resources and the distribution of outcomes. Health, safety, reliable energy and basic rights remain prerequisites for every domain. The dashboard is not a comprehensive well-being index.</p>
+<p class="caption">Table 2. Effective access dashboard</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Table 2"><table><thead><tr><th scope="col"><p class=""><strong>Domain</strong></p></th><th scope="col"><p class=""><strong>Example outcome</strong></p></th><th scope="col"><p class=""><strong>Factors beyond service availability</strong></p></th></tr></thead><tbody><tr><td><p class="">Education</p></td><td><p class="">Access to a suitable recognised programme</p></td><td><p class="">Price; language; time; connectivity; learning support</p></td></tr><tr><td><p class="">Skilled employment</p></td><td><p class="">Access to suitable work</p></td><td><p class="">Skills; recognition of qualifications; pay; legal protection</p></td></tr><tr><td><p class="">Entrepreneurship</p></td><td><p class="">Ability to enter a new market</p></td><td><p class="">Entry costs; finance; documents; competition</p></td></tr><tr><td><p class="">Technology and research</p></td><td><p class="">Access to equipment and computing</p></td><td><p class="">Tariff; personnel; waiting time; terms for using results</p></td></tr><tr><td><p class="">Participation and protection of rights</p></td><td><p class="">Ability to influence and appeal decisions</p></td><td><p class="">Clarity of the procedure; time required; independence of review</p></td></tr><tr><td><p class="">Cultural life</p></td><td><p class="">Ability to understand, create and participate</p></td><td><p class="">Language; cost; freedom of choice; accessibility of space; recognition of authorship</p></td></tr></tbody></table></div>
+
+<p class="">For person i and domain k, define Aᵢₖ = 1 if four conditions are met simultaneously: the opportunity exists, is affordable at its full cost, is legally applicable and is practically usable. Otherwise, Aᵢₖ = 0. For example, an online course is not accessible merely because a website exists: an appropriate language, connectivity and the ability to pay for tuition are required; for a professional purpose, a recognised qualification or outcome is also necessary. The affordability threshold relative to disposable income and the acceptable access time are specified before measurement and subjected to sensitivity analysis.</p>
+<p class="">Pᵣₖ = Σᵢ wᵢAᵢₖ / Σᵢ wᵢ is the proportion with effective access in the target group of territory r; wᵢ is a survey weight. The denominator includes everyone meeting the target group's eligibility criteria, including non-users and rejected applicants. It must not be limited to platform customers. Unknown status is recorded separately; the missing-data share is published, and a missing response is not automatically treated as either access or lack of access.</p>
+<p class="">The main output is a profile of Pᵣₖ broken down by income, age, sex, health-related limitations and settlement type. Small subgroups require uncertainty intervals and protection against identification. An overall score is optional. If used for supplementary comparison, its weights must be disclosed and the results checked under alternative weights; violations of basic rights cannot be offset by high scores in other domains.</p>
+<p class="">The dependence of opportunities on birthplace should be studied separately from the effects of current residence. The survey distinguishes place of birth, where a person grew up, current address and migration history. A gap between groups is a descriptive characteristic; it does not establish the causal effect of being born in a particular place. Migration, family income and selection into education can simultaneously change group composition and observed outcomes.</p>
+<p class="">One example of a social outcome is an increase in the share of young professionals outside the largest cities who can access a recognised continuing education programme and skilled employment. Evaluation must observe not only certificates awarded but also subsequent work, income, whether relocation was voluntary and whether alternatives remained available. The number of logins to an educational system is not such an outcome.</p>
+<h3 id="en-section-11">5.1 Cultural freedom and participation</h3>
+<p class="">Cultural development cannot be reduced to attendance at events or the turnover of creative industries. For this study, what matters is the ability to understand the terms of a joint project, use one's chosen language, help create content and express disagreement. Voluntary non-participation is not equated with exclusion. Refusal caused by cost, an inaccessible language or an unsafe procedure must be distinguished from a lack of interest.</p>
+<p class="">UNESCO Culture|2030 brings together 22 thematic indicators and treats culture both as a domain in its own right and as an enabling condition for other areas of development [26]. This working paper applies that logic to specific services: access, participation and the ability to influence decisions are measured separately. Public expenditure on culture describes resources; it does not stand in for creative freedom or the quality of participation.</p>
+<p class="">The proposed study covers users, people who decided not to apply, and people who might need the service but do not know it exists. Interviewees are selected across language groups, settlement types and professional positions. The interview sample is purposive and is not used to estimate population shares. A probability survey with known weights estimates proportions and disparities; qualitative material explains mechanisms concealed by those proportions.</p>
+<p class="">The questionnaire undergoes translation, a back-check of meaning and cognitive interviews. 'Access' may mean registering on a website, having the right to submit an application or being genuinely able to carry out work. Before comparing groups, researchers must check that questions are understood consistently. Trust and satisfaction supplement observation, but they do not replace information on service costs, actual refusals or the existence of an independent appeal procedure.</p>
+<p class="">Scenario discussions can draw on the Futures Literacy approach [27]: participants identify the assumptions underlying their expectations and discuss several possible futures. The proposed protocol records both the shared outcome and unresolved disagreements. The number of meetings held is not evidence of influence: the study must show which proposals were incorporated into decisions, which were rejected and why.</p>
+<h3 id="en-section-12">5.2 Scientific and technological capability</h3>
+<p class="">Research resources, knowledge production, technology adoption and the societal use of results are distinguished. The Frascati Manual sets out rules for measuring R&amp;D, while the Oslo Manual addresses innovation, including its implementation [28, 29]. Patent counts, purchased instruments and signed agreements describe different links in this chain. They cannot be added into a measure of 'technological strength' without a separate justification.</p>
+<p class="">Shared research infrastructure includes equipment, computing, data, technical personnel and researchers' time. The full access cost comprises the tariff, sample or task preparation, travel, waiting time, training and processing results. Free instrument time may remain inaccessible to a team without funds to prepare an experiment. Support for regional users must therefore be planned together with the operating budget.</p>
+<p class="">SESAME's policy provides a concrete institutional example: access to beamtime for general users is organised through the review of scientific proposals [33]. This confirms the existence of a shared-use procedure, but does not demonstrate adequate representation of every group or the model's transferability to another jurisdiction. The proposed module requires transparent criteria, conflict-of-interest management, reasoned rejections and assistance for new participants without waiving quality requirements.</p>
+<p class="">The UNESCO Recommendation on Open Science links access to knowledge with participation in its production [30]. FAIR sets out requirements for data to be findable, accessible, interoperable and reusable [31]. A project should specify in advance data ownership, provenance documentation, licensing terms, retention periods and permissible restrictions. FAIR does not mean that all data must be open: sensitive information may require controlled access.</p>
+<p class="">The quality of a scientific result is assessed through substantive expert review, the ability to scrutinise the method and the fitness of the data. In line with the Leiden Manifesto, quantitative metrics support expert judgement while accounting for disciplinary and local context [32]. For this paper, it is particularly important not to deem work in a national language less valuable because it receives fewer citations. At the same time, regional relevance does not exempt a result from scrutiny.</p>
+<p class="">Cooperation rules must distinguish pre-existing intellectual property from new joint results. Licences, access to underlying data, publication of negative results and dispute-resolution procedures are agreed before the project starts. Vendor dependence, equipment maintenance, energy supply and exit costs are assessed separately. Technological autonomy here means the ability to make informed choices and maintain solutions, not a requirement to produce everything within one country.</p>
+<p class="">Workforce effects require observing the skills acquired and participants' subsequent employment. Returning to a region should not be a mandatory success criterion: free mobility, remote cooperation and access to multiple employers also expand capabilities. The relevant question is whether sustainable research teams and connections emerge across organisations, not merely whether the number of placements increases.</p>
+<h3 id="en-section-13">5.3 Operational measurement</h3>
+<p class="">Table 3 proposes a minimum set of pilot indicators. It specifies future data collection rather than presenting an already populated statistical panel. For each indicator, the population, unit of observation, source, period, missing-data rules and acceptable measurement error are fixed before launch. The full indicator specification is included in the accompanying calculation package.</p>
+<p class="caption">Table 3. Minimum indicators for the three dimensions</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Table 3"><table><thead><tr><th scope="col"><p class=""><strong>Indicator</strong></p></th><th scope="col"><p class=""><strong>Definition</strong></p></th><th scope="col"><p class=""><strong>Source and limitation</strong></p></th></tr></thead><tbody><tr><td><p class="">C1 Effective cultural access</p></td><td><p class="">Share of the target group able to use the selected opportunity on acceptable language and cost terms</p></td><td><p class="">Weighted survey; participation and voluntary non-participation are counted separately</p></td></tr><tr><td><p class="">C2 Language gap</p></td><td><p class="">Difference between language groups in successful completion rates for a comparable procedure</p></td><td><p class="">Survey and logs; group composition and case complexity are taken into account</p></td></tr><tr><td><p class="">C3 Influence of participation</p></td><td><p class="">Share of considered proposals with a published reasoned decision</p></td><td><p class="">Consultation register; the substance of decisions is checked on a sample basis</p></td></tr><tr><td><p class="">S1 Realised research access</p></td><td><p class="">Share of technically eligible applications that lead to completed work</p></td><td><p class="">Application register; demand among non-applicants and reasons for rejection are recorded separately</p></td></tr><tr><td><p class="">S2 Skills acquisition</p></td><td><p class="">Share of participants who complete a predefined practical task after 6 and 12 months</p></td><td><p class="">Independent assessment; attrition and the availability of repeat assessment are reported</p></td></tr><tr><td><p class="">S3 Verifiability of results</p></td><td><p class="">Share of completed projects subject to verification with an accessible protocol, metadata and justification of restrictions</p></td><td><p class="">Repository and audit; the presence of files is not equivalent to reproduction</p></td></tr><tr><td><p class="">E1 Full transaction cost</p></td><td><p class="">Resource costs for a comparable shipment, including errors and incomplete procedures</p></td><td><p class="">Time and cost records; a fixed definition of included costs</p></td></tr><tr><td><p class="">E2 Participation by small organisations</p></td><td><p class="">Share of eligible small organisations with effective access and sustained use</p></td><td><p class="">A register of the target population and a survey of non-users</p></td></tr><tr><td><p class="">E3 Transition to investment</p></td><td><p class="">Changes in investment in equipment, R&amp;D and training following a change in operating performance</p></td><td><p class="">An organisation-level panel; financing and causality are analysed separately</p></td></tr></tbody></table></div>
+
+<p class="">For the effective-access rate, it is useful to publish bounds when responses are missing. The lower bound is the weighted number of confirmed cases of access divided by the weight of the entire target population; the upper bound adds the weight of unknown cases to the numerator. These are bounds arising from incomplete responses, not a confidence interval for sampling error. A model that imputes missing values may produce a narrower range, but its assumptions must be disclosed separately.</p>
+<p class="">The indicators are not aggregated into a single ranking. Rights, safety and the possibility of appeal are assessed first; economic viability follows; changes in access and its distribution come next. For costs, time, quality and disparities, the baseline, change and uncertainty are reported. An improvement in the average does not automatically compensate for a substantial deterioration in the position of a particular group.</p>
+<h2 id="en-section-14">6 Modular Integration and the Digital Contract</h2>
+<p class="">A module is a bounded set of reciprocal obligations, access rules, services and dispute-resolution arrangements. Its participants, scope, budget, risk allocation, entry criteria and exit procedure, including fulfilment of obligations already incurred, must be defined. A temporary project office may close after launch, but operations, audit and accountability must pass to a permanent operator. Even the most flexible architecture requires a minimum set of common rules.</p>
+<p class="">It would be inaccurate to contrast modularity with the entirety of European experience. Article 20 of the Treaty on European Union already provides for enhanced cooperation among a group of states under specified conditions, including a minimum number of participants. The research question is therefore not a choice between an abstract ‘Europe’ and ‘Eurasia’, but which obligations a particular project needs and how to make their fulfilment reliable and proportionate. [12]</p>
+<p class="">In my own work, I have proposed starting infrastructure integration with a digital contract. The article ‘The Russian Economy Is Ready for a Reboot’ treats a specific shipment as the basis for coordinating logistics, documents and settlement. The EDLC model, presented on the Digital Economy Lab website as a demonstration accompanying a report at the Central Economics and Mathematics Institute of the Russian Academy of Sciences on 9–10 June 2026, develops this approach. The estimates published there are model-based, not results from a completed pilot. They are not used as empirical coefficients in this paper. [13, 14]</p>
+<p class="">In the proposed architecture, a digital contract links the obligation to deliver goods, a shipment identifier, verified movement events, documents and payment terms. Legal force derives from the agreement and applicable law. Software code helps execute and verify particular conditions, but does not independently resolve disputes about product quality or force majeure. A first pilot does not require blockchain or a central bank digital currency: technology is selected after the legal and economic problem has been defined.</p>
+<p class="">A description prepared for the treasury proposes a specific option: linking the condition for a bank payment to a verifiable goods-release status, using an available contractual instrument. This allows a pilot to be discussed without requiring a cross-border CBDC to be ready. However, customs release does not certify product quality or final fulfilment of every obligation. Agreed banking terms, a reliable source of the event, correction handling and a dispute procedure are needed. Reserving funds also ties up working capital; liquidity savings must be measured against a specific alternative rather than assumed in advance. [22]</p>
+<p class="">Interoperability has four layers. The legal layer determines document recognition and liability. The semantic layer defines the meaning of fields, identifiers and statuses. The technical layer covers secure exchange, interface versions and resilience. The organisational layer covers operators’ powers, tariffs and appeal procedures. ISO 20022 helps standardise financial messages, but does not by itself provide foreign-exchange liquidity or settlement finality. The Bank for International Settlements’ Nexus architecture is useful as an example of combining the technical connection of national payment systems with governance and oversight. [15, 16]</p>
+<p class="">AI can draft a document, identify inconsistencies and provide a verifiable reference to a current requirement. Production use requires a log of model versions, the date of the regulatory source, checks of mandatory fields and referral of disputed cases to a human. A generative model’s explanation does not establish that its conclusion is correct. Federated learning likewise does not automatically eliminate leakage risk: NIST examines threats arising from the exchange of model updates. Protection depends on the specific design, not the name of the technology. [17]</p>
+<h2 id="en-section-15">7 Connection Economics and the Distribution of Benefits</h2>
+<p class="">The convenience of a shared system does not mean that joining it benefits everyone. Let F denote a firm’s fixed connection and training costs for the year considered, q the number of transactions in that year, and s the firm’s net saving per transaction after variable costs. The private result is then q × s − F, and, for s &gt; 0, the break-even threshold is q* = F / s. With positive F and s ≤ 0, increasing q cannot achieve break-even in this model. The formula excludes the dynamic value of future years and serves as a single-period illustration of an entry decision.</p>
+<p class="">With an illustrative saving of 50 monetary units per transaction, costs of 1,000, 5,000 and 10,000 units require 20, 100 and 200 transactions respectively to break even. Figure 2 shows these thresholds. A company making ten shipments a year may be excluded even from a highly efficient system. Practical responses include a shared connection service, portable data formats, training and proportionate tariffs. A subsidy lowers the private barrier and appears in the budget model. In the social model, the payment itself is a transfer within the appraisal boundary; additional administrative and other real costs are accounted for separately.</p>
+<figure><div class="figure-svg"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="648pt" height="374.4pt" viewBox="0 0 648 374.4" version="1.1" role="img" aria-label="Connection costs and the minimum number of shipments" id="enfig2-figure-2-en">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="enfig2-figure_1">
+  <g id="enfig2-patch_1">
+   <path d="M 0 374.4  L 648 374.4  L 648 0  L 0 0  z " style="fill: #ffffff"></path>
+  </g>
+  <g id="enfig2-axes_1">
+   <g id="enfig2-patch_2">
+    <path d="M 58.762344 325.077656  L 630 325.077656  L 630 33.36  L 58.762344 33.36  z " style="fill: #ffffff"></path>
+   </g>
+   <g id="enfig2-matplotlib.axis_1">
+    <g id="enfig2-xtick_1">
+     <g id="enfig2-line2d_1">
+      <defs>
+       <path id="enfig2-m5307f4d861" d="M 0 0  L 0 3.5  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig2-m5307f4d861" x="140.731384" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="140.731384" y="339.675313" transform="rotate(-0 140.731384 339.675313)">1,000</text>
+     </g>
+    </g>
+    <g id="enfig2-xtick_2">
+     <g id="enfig2-line2d_2">
+      <g>
+       <use xlink:href="#enfig2-m5307f4d861" x="344.381172" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="344.381172" y="339.675313" transform="rotate(-0 344.381172 339.675313)">5,000</text>
+     </g>
+    </g>
+    <g id="enfig2-xtick_3">
+     <g id="enfig2-line2d_3">
+      <g>
+       <use xlink:href="#enfig2-m5307f4d861" x="548.03096" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="548.03096" y="339.675313" transform="rotate(-0 548.03096 339.675313)">10,000</text>
+     </g>
+    </g>
+    <g id="enfig2-text_4">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="344.381172" y="353.676094" transform="rotate(-0 344.381172 353.676094)">Fixed connection costs (illustrative monetary units)</text>
+    </g>
+   </g>
+   <g id="enfig2-matplotlib.axis_2">
+    <g id="enfig2-ytick_1">
+     <g id="enfig2-line2d_4">
+      <path d="M 58.762344 325.077656  L 630 325.077656  " clip-path="url(#enfig2-p993b478d3a)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig2-line2d_5">
+      <defs>
+       <path id="enfig2-mde5692740c" d="M 0 0  L -3.5 0  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig2-mde5692740c" x="58.762344" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="328.876484" transform="rotate(-0 51.762344 328.876484)">0</text>
+     </g>
+    </g>
+    <g id="enfig2-ytick_2">
+     <g id="enfig2-line2d_6">
+      <path d="M 58.762344 263.01007  L 630 263.01007  " clip-path="url(#enfig2-p993b478d3a)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig2-line2d_7">
+      <g>
+       <use xlink:href="#enfig2-mde5692740c" x="58.762344" y="263.01007" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="266.808898" transform="rotate(-0 51.762344 266.808898)">50</text>
+     </g>
+    </g>
+    <g id="enfig2-ytick_3">
+     <g id="enfig2-line2d_8">
+      <path d="M 58.762344 200.942483  L 630 200.942483  " clip-path="url(#enfig2-p993b478d3a)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig2-line2d_9">
+      <g>
+       <use xlink:href="#enfig2-mde5692740c" x="58.762344" y="200.942483" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="204.741312" transform="rotate(-0 51.762344 204.741312)">100</text>
+     </g>
+    </g>
+    <g id="enfig2-ytick_4">
+     <g id="enfig2-line2d_10">
+      <path d="M 58.762344 138.874897  L 630 138.874897  " clip-path="url(#enfig2-p993b478d3a)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig2-line2d_11">
+      <g>
+       <use xlink:href="#enfig2-mde5692740c" x="58.762344" y="138.874897" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="142.673725" transform="rotate(-0 51.762344 142.673725)">150</text>
+     </g>
+    </g>
+    <g id="enfig2-ytick_5">
+     <g id="enfig2-line2d_12">
+      <path d="M 58.762344 76.807311  L 630 76.807311  " clip-path="url(#enfig2-p993b478d3a)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig2-line2d_13">
+      <g>
+       <use xlink:href="#enfig2-mde5692740c" x="58.762344" y="76.807311" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig2-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="80.606139" transform="rotate(-0 51.762344 80.606139)">200</text>
+     </g>
+    </g>
+    <g id="enfig2-text_10">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="26.2725" y="179.218828" transform="rotate(-90 26.2725 179.218828)">Shipments needed to break even</text>
+    </g>
+   </g>
+   <g id="enfig2-patch_3">
+    <path d="M 84.727692 325.077656  L 196.735075 325.077656  L 196.735075 300.250622  L 84.727692 300.250622  z " clip-path="url(#enfig2-p993b478d3a)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig2-patch_4">
+    <path d="M 288.37748 325.077656  L 400.384864 325.077656  L 400.384864 200.942483  L 288.37748 200.942483  z " clip-path="url(#enfig2-p993b478d3a)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig2-patch_5">
+    <path d="M 492.027268 325.077656  L 604.034652 325.077656  L 604.034652 76.807311  L 492.027268 76.807311  z " clip-path="url(#enfig2-p993b478d3a)" style="fill: #4b667a"></path>
+   </g>
+   <g id="enfig2-patch_6">
+    <path d="M 58.762344 325.077656  L 58.762344 33.36  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig2-patch_7">
+    <path d="M 58.762344 325.077656  L 630 325.077656  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig2-text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="140.731384" y="291.848278" transform="rotate(-0 140.731384 291.848278)">20</text>
+   </g>
+   <g id="enfig2-text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="344.381172" y="192.54014" transform="rotate(-0 344.381172 192.54014)">100</text>
+   </g>
+   <g id="enfig2-text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="548.03096" y="68.404967" transform="rotate(-0 548.03096 68.404967)">200</text>
+   </g>
+   <g id="enfig2-text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="344.381172" y="27.36" transform="rotate(-0 344.381172 27.36)">Connection threshold within one year</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="enfig2-p993b478d3a">
+   <rect x="58.762344" y="33.36" width="571.237656" height="291.717656"></rect>
+  </clipPath>
+ </defs>
+</svg></div></figure>
+<p class="caption">Figure 2. Fixed costs and the minimum number of shipments needed for connection to break even within one year. Author’s calculation assuming an illustrative saving of 50 units per shipment.</p>
+<p class="">Social appraisal requires a different measure. A lower fee for a user may partly redistribute income from an intermediary rather than save resources for society. The social model therefore includes time released and reductions in real losses, processing costs and error-correction costs. Tariff payments among participants within the appraisal boundary are treated as transfers. The user’s full benefit and the same amount of operator revenue must not both be added.</p>
+<p class="">NPV = −I₀ + Σₜ (Q × aₜ × sᵣ − Oₜ − Lₜ − Kₜ) / (1 + r)ᵗ.</p>
+<p class="">Here I₀ denotes initial investment; Q the potential number of eligible transactions per year; aₜ the share that actually use the service; sᵣ net resource savings per transaction; Oₜ operating costs; Lₜ expected losses from failures and errors; Kₜ additional investment and transition costs; and r the real discount rate. The appraisal boundary and monetary units must be consistent. Benefits outside that boundary are shown separately. The rate and prices in the example are not official standards of any country.</p>
+<p class="">To examine the mechanism, assume a 10-year horizon, I₀ = 10 million illustrative monetary units, Q = 200,000 transactions per year, a = 50%, sᵣ = 50 units, O = 1 million per year and r = 8%. All amounts are in constant prices. For simplicity, L and K are set to zero; this is a favourable restriction of the example, not a realistic estimate that risks are absent. The annual net benefit is 4 million, the present-value annuity factor is 6.7101, and NPV is 16.84 million. Other things being equal, NPV reaches zero at approximately 24.9% transaction coverage.</p>
+<figure><div class="figure-svg"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="648pt" height="374.4pt" viewBox="0 0 648 374.4" version="1.1" role="img" aria-label="NPV sensitivity to resource savings" id="enfig3-figure-3-en">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="enfig3-figure_1">
+  <g id="enfig3-patch_1">
+   <path d="M 0 374.4  L 648 374.4  L 648 0  L 0 0  z " style="fill: #ffffff"></path>
+  </g>
+  <g id="enfig3-axes_1">
+   <g id="enfig3-patch_2">
+    <path d="M 52.282344 325.077656  L 630 325.077656  L 630 33.36  L 52.282344 33.36  z " style="fill: #ffffff"></path>
+   </g>
+   <g id="enfig3-matplotlib.axis_1">
+    <g id="enfig3-xtick_1">
+     <g id="enfig3-line2d_1">
+      <path d="M 78.542237 325.077656  L 78.542237 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_2">
+      <defs>
+       <path id="enfig3-m5307f4d861" d="M 0 0  L 0 3.5  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="78.542237" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="78.542237" y="339.675313" transform="rotate(-0 78.542237 339.675313)">20</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_2">
+     <g id="enfig3-line2d_3">
+      <path d="M 166.075215 325.077656  L 166.075215 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_4">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="166.075215" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="166.075215" y="339.675313" transform="rotate(-0 166.075215 339.675313)">30</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_3">
+     <g id="enfig3-line2d_5">
+      <path d="M 253.608194 325.077656  L 253.608194 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_6">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="253.608194" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="253.608194" y="339.675313" transform="rotate(-0 253.608194 339.675313)">40</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_4">
+     <g id="enfig3-line2d_7">
+      <path d="M 341.141172 325.077656  L 341.141172 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_8">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="341.141172" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="341.141172" y="339.675313" transform="rotate(-0 341.141172 339.675313)">50</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_5">
+     <g id="enfig3-line2d_9">
+      <path d="M 428.67415 325.077656  L 428.67415 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_10">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="428.67415" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="428.67415" y="339.675313" transform="rotate(-0 428.67415 339.675313)">60</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_6">
+     <g id="enfig3-line2d_11">
+      <path d="M 516.207128 325.077656  L 516.207128 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_12">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="516.207128" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="516.207128" y="339.675313" transform="rotate(-0 516.207128 339.675313)">70</text>
+     </g>
+    </g>
+    <g id="enfig3-xtick_7">
+     <g id="enfig3-line2d_13">
+      <path d="M 603.740107 325.077656  L 603.740107 33.36  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_14">
+      <g>
+       <use xlink:href="#enfig3-m5307f4d861" x="603.740107" y="325.077656" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="603.740107" y="339.675313" transform="rotate(-0 603.740107 339.675313)">80</text>
+     </g>
+    </g>
+    <g id="enfig3-text_8">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="341.141172" y="353.676094" transform="rotate(-0 341.141172 353.676094)">Resource savings per transaction (illustrative units)</text>
+    </g>
+   </g>
+   <g id="enfig3-matplotlib.axis_2">
+    <g id="enfig3-ytick_1">
+     <g id="enfig3-line2d_15">
+      <path d="M 52.282344 280.198017  L 630 280.198017  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_16">
+      <defs>
+       <path id="enfig3-mde5692740c" d="M 0 0  L -3.5 0  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig3-mde5692740c" x="52.282344" y="280.198017" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="45.282344" y="283.996845" transform="rotate(-0 45.282344 283.996845)">0</text>
+     </g>
+    </g>
+    <g id="enfig3-ytick_2">
+     <g id="enfig3-line2d_17">
+      <path d="M 52.282344 224.098468  L 630 224.098468  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_18">
+      <g>
+       <use xlink:href="#enfig3-mde5692740c" x="52.282344" y="224.098468" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="45.282344" y="227.897296" transform="rotate(-0 45.282344 227.897296)">10</text>
+     </g>
+    </g>
+    <g id="enfig3-ytick_3">
+     <g id="enfig3-line2d_19">
+      <path d="M 52.282344 167.998918  L 630 167.998918  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_20">
+      <g>
+       <use xlink:href="#enfig3-mde5692740c" x="52.282344" y="167.998918" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="45.282344" y="171.797746" transform="rotate(-0 45.282344 171.797746)">20</text>
+     </g>
+    </g>
+    <g id="enfig3-ytick_4">
+     <g id="enfig3-line2d_21">
+      <path d="M 52.282344 111.899369  L 630 111.899369  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_22">
+      <g>
+       <use xlink:href="#enfig3-mde5692740c" x="52.282344" y="111.899369" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="45.282344" y="115.698197" transform="rotate(-0 45.282344 115.698197)">30</text>
+     </g>
+    </g>
+    <g id="enfig3-ytick_5">
+     <g id="enfig3-line2d_23">
+      <path d="M 52.282344 55.79982  L 630 55.79982  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig3-line2d_24">
+      <g>
+       <use xlink:href="#enfig3-mde5692740c" x="52.282344" y="55.79982" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig3-text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="45.282344" y="59.598648" transform="rotate(-0 45.282344 59.598648)">40</text>
+     </g>
+    </g>
+    <g id="enfig3-text_14">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="26.155" y="179.218828" transform="rotate(-90 26.155 179.218828)">NPV (million illustrative units)</text>
+    </g>
+   </g>
+   <g id="enfig3-line2d_25">
+    <path d="M 78.542237 298.654312  L 341.141172 185.724549  L 603.740107 72.794787  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #6e1e2b; stroke-width: 2.5; stroke-linecap: square"></path>
+    <defs>
+     <path id="enfig3-mb53afab706" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #6e1e2b"></path>
+    </defs>
+    <g clip-path="url(#enfig3-pe02245d997)">
+     <use xlink:href="#enfig3-mb53afab706" x="78.542237" y="298.654312" style="fill: #6e1e2b; stroke: #6e1e2b"></use>
+     <use xlink:href="#enfig3-mb53afab706" x="341.141172" y="185.724549" style="fill: #6e1e2b; stroke: #6e1e2b"></use>
+     <use xlink:href="#enfig3-mb53afab706" x="603.740107" y="72.794787" style="fill: #6e1e2b; stroke: #6e1e2b"></use>
+    </g>
+   </g>
+   <g id="enfig3-line2d_26">
+    <path d="M 52.282344 280.198017  L 630 280.198017  " clip-path="url(#enfig3-pe02245d997)" style="fill: none; stroke: #8d8a83; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig3-patch_3">
+    <path d="M 52.282344 325.077656  L 52.282344 33.36  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig3-patch_4">
+    <path d="M 52.282344 325.077656  L 630 325.077656  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig3-text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="78.542237" y="286.654312" transform="rotate(-0 78.542237 286.654312)">-3.29</text>
+   </g>
+   <g id="enfig3-text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="341.141172" y="173.724549" transform="rotate(-0 341.141172 173.724549)">16.84</text>
+   </g>
+   <g id="enfig3-text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="603.740107" y="60.794787" transform="rotate(-0 603.740107 60.794787)">36.97</text>
+   </g>
+   <g id="enfig3-text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="341.141172" y="27.36" transform="rotate(-0 341.141172 27.36)">Illustrative NPV sensitivity over ten years</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="enfig3-pe02245d997">
+   <rect x="52.282344" y="33.36" width="577.717656" height="291.717656"></rect>
+  </clipPath>
+ </defs>
+</svg></div></figure>
+<p class="caption">Figure 3. Sensitivity of NPV to resource savings per transaction. The complete set of illustrative parameters is provided in the text and parameters.json.</p>
+<p class="">Sensitivity changes the practical conclusion. With resource savings of 20 units, NPV becomes negative at −3.29 million; with 80 units, it is positive at 36.97 million. Including additional annual losses of 0.5 million in the baseline reduces NPV to 13.49 million. Any major repair, incident or slow connection process will also worsen the result. These calculations illustrate the conditions for viability; they do not establish the profitability of a real project.</p>
+<p class="">Even a positive overall NPV is insufficient to establish accessible development. A distribution table is needed: who finances the launch, who saves time, who loses income, where capabilities are built and who gains control over data. Outcomes for small businesses and regional organisations should be shown separately. Aggregate benefits do not guarantee that a particular group’s transition losses will be compensated.</p>
+<h3 id="en-section-16">7.1 The Full Life Cycle</h3>
+<p class="">Social appraisal compares the project with a realistic scenario without it, including changes already planned and maintenance of existing infrastructure. It does not compare a new service with an artificially frozen world. The operator’s financial model, budget implications and social resource model are maintained separately. The discount rate and accounting boundaries are selected for the relevant appraisal purpose [35].</p>
+<p class="">In the original example, 50% coverage is achieved immediately and maintained for ten years. To test this favourable assumption, an alternative coverage path is introduced: 10%, 20%, 30%, 40% and 50% in the first five years, and 50% thereafter. Q, resource savings, initial investment, operating costs and the discount rate remain unchanged. Annual losses of 0.5 million and equipment replacement costing 4 million at the end of year five are also examined. A zero residual value at the end of the horizon is explicitly assumed.</p>
+<p class="caption">Table 4. Sensitivity to service adoption and life-cycle costs</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Table 4"><table><thead><tr><th scope="col"><p class=""><strong>Scenario</strong></p></th><th scope="col"><p class=""><strong>NPV, million</strong></p></th><th scope="col"><p class=""><strong>Change from baseline, million</strong></p></th></tr></thead><tbody><tr><td><p class="">Baseline: constant coverage</p></td><td><p class="">16.84</p></td><td><p class="">0.00</p></td></tr><tr><td><p class="">Savings of 20 units</p></td><td><p class="">−3.29</p></td><td><p class="">−20.13</p></td></tr><tr><td><p class="">Gradual adoption</p></td><td><p class="">8.24</p></td><td><p class="">−8.60</p></td></tr><tr><td><p class="">Adoption and annual losses</p></td><td><p class="">4.89</p></td><td><p class="">−11.95</p></td></tr><tr><td><p class="">Adoption, losses and replacement</p></td><td><p class="">2.16</p></td><td><p class="">−14.68</p></td></tr></tbody></table></div>
+
+<p class="">With gradual adoption, NPV falls to 8.24 million. After annual losses and equipment replacement are added, 2.16 million remains. Combining the same costs with savings of only 20 units per transaction yields −12.81 million. The robustness of the conclusion depends on actual parameters; a positive outcome in one scenario is no guarantee.</p>
+<p class="">All scenarios in Table 4 are deterministic and illustrative; no probabilities are assigned to them. Adding factors sequentially shows the cost of specific assumptions. In a real appraisal, coverage, reliability and costs may be interdependent. Monte Carlo simulation becomes meaningful after distributions and dependencies have been justified, not as a way of giving arbitrary parameters an appearance of statistical precision.</p>
+<p class="">Cultural outcomes and basic research may generate socially important effects without a reliable monetary valuation. The study of the LHC [36] is useful for its breakdown of benefits by recipient and its acknowledgement of uncertainty. In this working paper, unpredictable discoveries are not included in the baseline NPV as guaranteed income. Effects that have not been valued retain a separate description; where the same validated objective is pursued, the cost of achieving it can be compared. Funding decisions need not be reduced to a single monetary amount.</p>
+<h3 id="en-section-17">7.2 From Exports to Investment</h3>
+<p class="">Export revenue, domestic value added, company profit and investment answer different questions. The OECD TiVA methodology separates domestic and foreign value added embodied in gross exports using inter-country input–output tables [39]. The domestic component includes the contribution of domestic suppliers along the chain and is not equal to the exporter’s profit. An industry-level TiVA coefficient cannot be applied to an individual firm without validation.</p>
+<p class="">At firm level, export receipts, intermediate input costs, labour compensation, taxes, financial expenses, profit and cash flow should be observed in sequence. Dividends, working capital, debt service, external financing and capital expenditure are then recorded separately. This is a framework for collecting consistent data, not an assumption that all remaining profit is automatically invested. Training and research expenditure also require a consistent distinction between current expenses and capitalisation.</p>
+<p class="">Testing the transition to investment requires a panel of organisations before and after connection, with a comparable control group. Changes in the volume and composition of investment, credit access, demand expectations and capacity utilisation are observed. Comparable prices are used; exchange-rate revaluation is separated from changes in physical output. Higher revenue in one year may accompany debt repayment, while investment may be financed by borrowing despite low current profit.</p>
+<p class="">The distribution of outcomes is assessed across firms, workers, operators, public budgets and territories. For each group, gross benefits, its own costs, transfers and the net effect are required. On consolidation, payments within the chosen boundary are eliminated while real resource costs are retained. An intermediary’s loss of income does not always equal a social loss, but workers’ transitions, retraining and idle time have costs.</p>
+<p class="">Converting time savings into money also requires care. Hours released do not necessarily turn into job cuts or additional output. It is necessary to establish whether overtime fell, tasks were reassigned, quality improved or production increased. The full value of time saved and the entire increase in profit arising from the same change must not be counted simultaneously.</p>
+<h2 id="en-section-18">8 Testable Hypotheses and Pilot Design</h2>
+<p class="">The first hypothesis is that recognising electronic documents and eliminating repeated data entry reduces the full processing cost of a comparable shipment. The second is that reducing the fixed connection price increases small-firm participation more than an equally costly reduction in the variable tariff for large firms. The third is that shared infrastructure improves access outside the largest centres only when local capabilities and organisational support are present. These are hypotheses to test, not established findings.</p>
+<p class="">The EDLC working materials propose a pilot on the Chongqing–Moscow route, with a control group of shipments and indicators fixed before observation begins. The protocol requires publication of the result regardless of its sign. This paper clarifies the requirements for group assignment and the interpretation of uncertainty. After testing on one route, the approach can be adapted to shipments by enterprises in Tatarstan and partners in Central Asia. [23] Before launch, the target population, processing workflow, baseline costs and data sources are specified. All eligible transactions are recorded, including refusals to participate and unsuccessful completion. The protocol defines the primary outcome, observation-exclusion rules, subgroup analysis and stopping conditions in advance.</p>
+<p class="">Where organisationally feasible, the preferred option is a random order of invitations to comparable firms or clusters. The primary effect is estimated by assignment to the invitation group, rather than only among those who agree to connect. This reduces the problem of self-selection by successful companies. Interpreting the effect of actual use requires additional assumptions. If invitations do not change participation, or the control group receives the same service through partners, the estimate may be uninformative.</p>
+<p class="">If randomisation is impossible, phased introduction and a comparison of changes with comparable groups not yet connected are acceptable. The Callaway and Sant’Anna method allows effects to be estimated by group and period when treatment begins at different times. A substantive interpretation requires justification of parallel trends, analysis of pre-treatment dynamics and the absence of confounding changes. These checks strengthen credibility but do not automatically prove the assumptions. [18]</p>
+<p class="">The units of observation should be the firm and the shipment. Measures include full transaction costs, median and 90th-percentile processing times, and the shares of corrections, incomplete procedures and significant incidents. Small-firm connection, participant geography and worker burdens are assessed separately. Time and cost effects are not added again if time has already been monetised. Statistical uncertainty accounts for observations clustered within firms or assignment clusters.</p>
+<p class="">Sample size is determined after estimating baseline-data variability, the connection rate and the minimum practically important effect. An arbitrary participant count without this calculation creates an appearance of rigour. Seasonality should be covered and a learning period allowed. A positive average result is accepted only if data-protection, reliability and appeal requirements are met; these conditions are constraints, not additional points in a ranking.</p>
+<p class="">The next stage adds a survey of people and organisations absent from platform logs. This is what will reveal whether cost, language, skill or equipment-access barriers remain. Effects on human capabilities require longer observation than reductions in document-processing time. Attributing changes in regional incomes or migration to the first pilot would be premature.</p>
+<h3 id="en-section-19">8.1 Three Linked Lines of Testing</h3>
+<p class="">The research extends beyond an individual shipment. The first module tests the digital contract and full transaction costs. The second tests access to shared equipment or computing resources. The third tests multilingual and organisational support for participation. Each module has its own unit of assignment and primary outcome; a common method does not imply a single sample for every task.</p>
+<p class="">For the science module, additional training may be offered in a random order among eligible applicants identified in advance, if organisationally and ethically acceptable. Scientific selection, experimental safety and the right to an entitled service remain in place. The primary outcome is completion of the research task within a specified time; subsequent outcomes include skills, data quality and repeated use of infrastructure.</p>
+<p class="">For language support, the standard procedure is compared with additional assistance: explanation of the terms, translation and application support. Legally guaranteed language rights are not restricted for an experiment. Procedure completion, the user’s total effort and understanding of the consequences are measured. If resources permit, a factorial design can separately estimate assistance with the entry price and with understanding the procedure, including their interaction.</p>
+<p class="">The common protocol distinguishes the effect of an offer to participate from the effect of actual use. Randomised encouragement, instrumental-variable estimation and comparisons of changes require different assumptions; they are not interchangeable [40, 18]. For phased introduction, differences in treatment timing, anticipation of future connection and service spillovers into the control group are considered.</p>
+<p class="">Before launch, the primary outcome, minimum important effect, assignment level, exclusion rules and analysis of multiple hypotheses are registered. Power calculations account for within-cluster dependence, the number of independent clusters, the connection rate and attrition. With few clusters, conventional asymptotic intervals may be unreliable. A method for controlling multiple testing across secondary outcomes is selected in advance; exploratory findings are labelled separately.</p>
+<p class="">A mixed-method approach links outcomes to mechanisms. Independent interviews establish why a formally available service is not used, while observation of the procedure checks discrepancies with logs. A sample of refusals, incomplete actions and user costs is examined independently of operator statistics. External verification must not depend on the operator agreeing to publish an inconvenient result.</p>
+<p class="">The observation horizon is determined by the speed of the expected change: operational indicators appear earlier than new capabilities and investment. A practical schedule comprises baseline measurement, follow-up at 6 and 12 months and, with sustained funding, at 24 months. These timings are a protocol proposal, not a universal standard. Seasonality and a complete research cycle may require a different calendar.</p>
+<p class="">Scaling is permitted after data quality has been checked, unacceptable harm has been ruled out and a practical outcome agreed in advance has been achieved. If the effect is statistically indistinguishable from zero, that is not equivalent to proving there is no benefit: estimation precision and protocol compliance are examined first. Stopping conditions relating to safety, discrimination or data loss apply regardless of the economic result.</p>
+<h2 id="en-section-20">9 Scenarios to 2050</h2>
+<p class="">For a long horizon, it is more useful to examine the conditions under which solutions spread than to announce a single precise figure for GDP growth. The model below describes the share of eligible transactions using an illustrative service. The starting point is 2026 and the horizon is 2050, or 24 years. Initial coverage of 10% is chosen for illustration and is not an observed share of digital contracts in Eurasia.</p>
+<p class="">a(t) = a₀ + (aₘₐₓ − a₀) × [1 − exp(−k × t)], where t is the number of years after 2026.</p>
+<p class="">Three paths differ in their maximum coverage and speed of adoption. Limited diffusion: aₘₐₓ = 40%, k = 0.08; gradual diffusion: 65% and 0.12; accelerated diffusion: 85% and 0.18. These are transparent assumptions for discussion, not results of statistical calibration. The coefficient k sets the speed of approach to the limit, not an annual rate of economic growth. No probabilities are assigned to the paths.</p>
+<figure><div class="figure-svg"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="648pt" height="374.4pt" viewBox="0 0 648 374.4" version="1.1" role="img" aria-label="Illustrative scenarios of service diffusion" id="enfig4-figure-4-en">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="enfig4-figure_1">
+  <g id="enfig4-patch_1">
+   <path d="M 0 374.4  L 648 374.4  L 648 0  L 0 0  z " style="fill: #ffffff"></path>
+  </g>
+  <g id="enfig4-axes_1">
+   <g id="enfig4-patch_2">
+    <path d="M 58.762344 325.4  L 617.04 325.4  L 617.04 33.36  L 58.762344 33.36  z " style="fill: #ffffff"></path>
+   </g>
+   <g id="enfig4-matplotlib.axis_1">
+    <g id="enfig4-xtick_1">
+     <g id="enfig4-line2d_1">
+      <path d="M 151.80862 325.4  L 151.80862 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_2">
+      <defs>
+       <path id="enfig4-m5307f4d861" d="M 0 0  L 0 3.5  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig4-m5307f4d861" x="151.80862" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="151.80862" y="339.997656" transform="rotate(-0 151.80862 339.997656)">2030</text>
+     </g>
+    </g>
+    <g id="enfig4-xtick_2">
+     <g id="enfig4-line2d_3">
+      <path d="M 268.116465 325.4  L 268.116465 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_4">
+      <g>
+       <use xlink:href="#enfig4-m5307f4d861" x="268.116465" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="268.116465" y="339.997656" transform="rotate(-0 268.116465 339.997656)">2035</text>
+     </g>
+    </g>
+    <g id="enfig4-xtick_3">
+     <g id="enfig4-line2d_5">
+      <path d="M 384.42431 325.4  L 384.42431 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_6">
+      <g>
+       <use xlink:href="#enfig4-m5307f4d861" x="384.42431" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="384.42431" y="339.997656" transform="rotate(-0 384.42431 339.997656)">2040</text>
+     </g>
+    </g>
+    <g id="enfig4-xtick_4">
+     <g id="enfig4-line2d_7">
+      <path d="M 500.732155 325.4  L 500.732155 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_8">
+      <g>
+       <use xlink:href="#enfig4-m5307f4d861" x="500.732155" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="500.732155" y="339.997656" transform="rotate(-0 500.732155 339.997656)">2045</text>
+     </g>
+    </g>
+    <g id="enfig4-xtick_5">
+     <g id="enfig4-line2d_9">
+      <path d="M 617.04 325.4  L 617.04 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_10">
+      <g>
+       <use xlink:href="#enfig4-m5307f4d861" x="617.04" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #615e57" x="617.04" y="339.997656" transform="rotate(-0 617.04 339.997656)">2050</text>
+     </g>
+    </g>
+    <g id="enfig4-text_6">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="337.901172" y="353.997656" transform="rotate(-0 337.901172 353.997656)">Year</text>
+    </g>
+   </g>
+   <g id="enfig4-matplotlib.axis_2">
+    <g id="enfig4-ytick_1">
+     <g id="enfig4-line2d_11">
+      <path d="M 58.762344 325.4  L 617.04 325.4  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_12">
+      <defs>
+       <path id="enfig4-mde5692740c" d="M 0 0  L -3.5 0  " style="stroke: #615e57; stroke-width: 0.8"></path>
+      </defs>
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="325.4" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="329.198828" transform="rotate(-0 51.762344 329.198828)">0</text>
+     </g>
+    </g>
+    <g id="enfig4-ytick_2">
+     <g id="enfig4-line2d_13">
+      <path d="M 58.762344 266.992  L 617.04 266.992  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_14">
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="266.992" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="270.790828" transform="rotate(-0 51.762344 270.790828)">20</text>
+     </g>
+    </g>
+    <g id="enfig4-ytick_3">
+     <g id="enfig4-line2d_15">
+      <path d="M 58.762344 208.584  L 617.04 208.584  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_16">
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="208.584" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="212.382828" transform="rotate(-0 51.762344 212.382828)">40</text>
+     </g>
+    </g>
+    <g id="enfig4-ytick_4">
+     <g id="enfig4-line2d_17">
+      <path d="M 58.762344 150.176  L 617.04 150.176  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_18">
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="150.176" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="153.974828" transform="rotate(-0 51.762344 153.974828)">60</text>
+     </g>
+    </g>
+    <g id="enfig4-ytick_5">
+     <g id="enfig4-line2d_19">
+      <path d="M 58.762344 91.768  L 617.04 91.768  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_20">
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="91.768" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="95.566828" transform="rotate(-0 51.762344 95.566828)">80</text>
+     </g>
+    </g>
+    <g id="enfig4-ytick_6">
+     <g id="enfig4-line2d_21">
+      <path d="M 58.762344 33.36  L 617.04 33.36  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.2; stroke-width: 0.8; stroke-linecap: square"></path>
+     </g>
+     <g id="enfig4-line2d_22">
+      <g>
+       <use xlink:href="#enfig4-mde5692740c" x="58.762344" y="33.36" style="fill: #615e57; stroke: #615e57; stroke-width: 0.8"></use>
+      </g>
+     </g>
+     <g id="enfig4-text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #615e57" x="51.762344" y="37.158828" transform="rotate(-0 51.762344 37.158828)">100</text>
+     </g>
+    </g>
+    <g id="enfig4-text_13">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="26.2725" y="179.38" transform="rotate(-90 26.2725 179.38)">Share of eligible transactions (%)</text>
+    </g>
+   </g>
+   <g id="enfig4-line2d_23">
+    <path d="M 58.762344 296.196  L 82.023913 289.460069  L 105.285482 283.242022  L 128.547051 277.50204  L 151.80862 272.203369  L 175.070189 267.31208  L 198.331758 262.796851  L 221.593327 258.628769  L 244.854896 254.781144  L 268.116465 251.229339  L 291.378034 247.950609  L 314.639603 244.92396  L 337.901172 242.130012  L 361.162741 239.550872  L 384.42431 237.170025  L 407.685879 234.972227  L 430.947448 232.943404  L 454.209017 231.070564  L 477.470586 229.341715  L 500.732155 227.745786  L 523.993724 226.272558  L 547.255293 224.912597  L 570.516862 223.657195  L 593.778431 222.498312  L 617.04 221.428529  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke-dasharray: 2.5,4.125; stroke-dashoffset: 0; stroke: #8a7958; stroke-width: 2.5"></path>
+   </g>
+   <g id="enfig4-line2d_24">
+    <path d="M 58.762344 296.196  L 82.023913 278.032934  L 105.285482 261.92374  L 128.547051 247.636167  L 151.80862 234.964226  L 175.070189 223.725223  L 198.331758 213.757121  L 221.593327 204.916208  L 244.854896 197.075021  L 268.116465 190.120513  L 291.378034 183.952417  L 314.639603 178.481806  L 337.901172 173.62981  L 361.162741 169.326476  L 384.42431 165.509761  L 407.685879 162.124638  L 430.947448 159.122303  L 454.209017 156.459472  L 477.470586 154.097752  L 500.732155 152.003094  L 523.993724 150.145299  L 547.255293 148.497583  L 570.516862 147.03619  L 593.778431 145.74005  L 617.04 144.590478  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke-dasharray: 9.25,4; stroke-dashoffset: 0; stroke: #4b667a; stroke-width: 2.5"></path>
+   </g>
+   <g id="enfig4-line2d_25">
+    <path d="M 58.762344 296.196  L 82.023913 260.115234  L 105.285482 229.978046  L 128.547051 204.80535  L 151.80862 183.779347  L 175.070189 166.216953  L 198.331758 151.547608  L 221.593327 139.294741  L 244.854896 129.060287  L 268.116465 120.511752  L 291.378034 113.371415  L 314.639603 107.407305  L 337.901172 102.425661  L 361.162741 98.264643  L 384.42431 94.789068  L 407.685879 91.886023  L 430.947448 89.461197  L 454.209017 87.435812  L 477.470586 85.744068  L 500.732155 84.331005  L 523.993724 83.150715  L 547.255293 82.164854  L 570.516862 81.341394  L 593.778431 80.653582  L 617.04 80.079073  " clip-path="url(#enfig4-p3d7400feb3)" style="fill: none; stroke: #6e1e2b; stroke-width: 2.5; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig4-patch_3">
+    <path d="M 58.762344 325.4  L 58.762344 33.36  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig4-patch_4">
+    <path d="M 58.762344 325.4  L 617.04 325.4  " style="fill: none; stroke: #ded5c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"></path>
+   </g>
+   <g id="enfig4-text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #142233" x="337.901172" y="27.36" transform="rotate(-0 337.901172 27.36)">Illustrative service diffusion: uncalibrated scenarios</text>
+   </g>
+   <g id="enfig4-legend_1">
+    <g id="enfig4-line2d_26">
+     <path d="M 67.762344 46.458438  L 77.762344 46.458438  L 87.762344 46.458438  " style="fill: none; stroke-dasharray: 2.5,4.125; stroke-dashoffset: 0; stroke: #8a7958; stroke-width: 2.5"></path>
+    </g>
+    <g id="enfig4-text_15">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="95.762344" y="49.958438" transform="rotate(-0 95.762344 49.958438)">Limited</text>
+    </g>
+    <g id="enfig4-line2d_27">
+     <path d="M 67.762344 61.459219  L 77.762344 61.459219  L 87.762344 61.459219  " style="fill: none; stroke-dasharray: 9.25,4; stroke-dashoffset: 0; stroke: #4b667a; stroke-width: 2.5"></path>
+    </g>
+    <g id="enfig4-text_16">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="95.762344" y="64.959219" transform="rotate(-0 95.762344 64.959219)">Gradual</text>
+    </g>
+    <g id="enfig4-line2d_28">
+     <path d="M 67.762344 76.46  L 77.762344 76.46  L 87.762344 76.46  " style="fill: none; stroke: #6e1e2b; stroke-width: 2.5; stroke-linecap: square"></path>
+    </g>
+    <g id="enfig4-text_17">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142233" x="95.762344" y="79.96" transform="rotate(-0 95.762344 79.96)">Accelerated</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="enfig4-p3d7400feb3">
+   <rect x="58.762344" y="33.36" width="558.277656" height="292.04"></rect>
+  </clipPath>
+ </defs>
+</svg></div></figure>
+<p class="caption">Figure 4. Illustrative service-diffusion paths, 2026–2050. Author’s scenario model without empirical calibration.</p>
+<p class="caption">Table 5. Illustrative shares of eligible transactions by scenario</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Table 5"><table><thead><tr><th scope="col"><p class=""><strong>Scenario</strong></p></th><th scope="col"><p class=""><strong>2030</strong></p></th><th scope="col"><p class=""><strong>2040</strong></p></th><th scope="col"><p class=""><strong>2050</strong></p></th></tr></thead><tbody><tr><td><p class="">Limited</p></td><td><p class="">18.2%</p></td><td><p class="">30.2%</p></td><td><p class="">35.6%</p></td></tr><tr><td><p class="">Gradual</p></td><td><p class="">31.0%</p></td><td><p class="">54.7%</p></td><td><p class="">61.9%</p></td></tr><tr><td><p class="">Accelerated</p></td><td><p class="">48.5%</p></td><td><p class="">79.0%</p></td><td><p class="">84.0%</p></td></tr></tbody></table></div>
+
+<p class="">By 2050, the respective shares are approximately 35.6%, 61.9% and 84.0% of eligible transactions. They cannot be interpreted as the shares of citizens who have gained access to development: additional conditions separate service use from life opportunities. The scenarios do not predict the political composition of participants or assume identical national dynamics. Constant Q likewise applies only to the illustrative calculation, not to a forecast of real trade volume.</p>
+<p class="">The author’s qualitative forecast is that local projects with measurable outcomes will be the main test up to 2030. In 2030–2040, viable solutions may spread to supply chains, vocational training and research infrastructure. After 2040, resilience will depend on the ability to renew technologies and train specialists across regions. This sequence is conditional: political conflict, payment restrictions, water and energy constraints could change it much sooner.</p>
+<p class="">The numerical result of a ten-year NPV cannot automatically be extended to 2050. Such a horizon requires equipment-replacement cycles, updates to rules and changes in demand. Scenarios should be reviewed at least every three years and after major changes in conditions. Each review should publish the old parameters and reasons for new assumptions, so that scenario analysis does not become continual adjustment to a desired result.</p>
+<h3 id="en-section-21">9.1 Testing Scenario Robustness</h3>
+<p class="">Coverage paths alone are insufficient. Four combinations are considered alongside them: broad opportunities with distributed capabilities; rapid growth in use with concentrated control; slow development with resilient local teams; and breakdown of cooperation following a loss of trust and resources. These are qualitative regimes for testing decisions, not additional quantitative forecasts.</p>
+<p class="">Each regime is assessed along three dimensions. For culture: are multilingualism, freedom to participate and the ability to object preserved? For science: are equipment, staff and verifiable results accessible? For the economy: can participants bear full costs, interruptions and a change of operator? A high a(t) can coexist with deterioration in these conditions if the digital channel is mandatory and alternatives have disappeared.</p>
+<p class="">Priority goes to solutions useful across several regimes: data portability, independent expertise, training local teams and a clear exit procedure. Expansion of capital-intensive infrastructure can be linked in stages to observed demand. The value of postponement or the option to change a decision is not included in NPV without a separate model. Scenarios test robustness rather than justify an investment selected in advance.</p>
+<h2 id="en-section-22">10 Science Fiction in the USSR and Eastern Europe</h2>
+<p class="">Science fiction is included in this study as cultural material in its own right. It raises questions easily lost in discussions of tariffs, interfaces and investment indicators: what is technological progress for, who defines a desirable future, and how can we recognise development that exists mainly in reports? The Soviet tradition is examined through Efremov and the Strugatsky brothers; Stanisław Lem represents the Polish and broader Eastern European strand. These authors are not combined into a single doctrine.</p>
+<p class="">Neither literary utopia nor dystopia proves the effectiveness of an economic system. What follows is the author’s comparative reading of a limited corpus, not a history of all science fiction or a measurement of books’ influence on public behaviour. Futurism as an artistic movement, science fiction as literature and forecasting as a research procedure differ in their subject matter and methods of validation.</p>
+<h3 id="en-section-23">10.1 Historical Boundaries and Method of Reading</h3>
+<p class="">The cultural history of the genre warns against assuming a single Soviet model of the future. Matthias Schwartz examines debates about science fiction from the New Economic Policy to the Stalinist period as an interaction among writers, publishers, readers and cultural policy [44]. Anindita Banerjee’s work addresses the earlier emergence of Russian modernity and science fiction at the turn of the twentieth century [45]. These studies concern different periods; their conclusions cannot be mechanically extended to post-war literature.</p>
+<p class="">The works selected for this paper allow different constraints on development to be compared: Efremov’s Andromeda and The Bull’s Hour; the Strugatsky brothers’ Noon: 22nd Century, Monday Begins on Saturday, Hard to Be a God and The Time Wanderers; and Lem’s The Futurological Congress. This is a purposive corpus, largely confined to Russian-language Soviet and Polish traditions. It does not represent the full cultural diversity of the USSR or Eastern Europe.</p>
+<p class="">The unit of analysis is a scene or a recurring conflict, not an isolated striking quotation. The same questions are asked of each work: how are knowledge and labour distributed; who decides on risk; what counts as a dignified life; who is excluded from prosperity; and can the protagonist verify the official account and refuse an imposed decision? Interpretations are related to literary form and are not declared to be direct expressions of the author’s political programme.</p>
+<h3 id="en-section-24">10.2 Efremov and Access to Creative Work</h3>
+<p class="">In Andromeda, future civilisation is associated with education, research and responsibility for the application of knowledge. What matters for my reading is that a fulfilling life extends beyond consumption: people must have the opportunity to participate in demanding work. The Bull’s Hour raises the opposite question: how can a technologically advanced order preserve social oppression? The two books are considered together, without reducing Efremov to unconditional technological optimism. [41]</p>
+<p class="">For a society of accessible development, this yields a research question: who can actually create something new, rather than merely receive a ready-made service? It can be tested through access to laboratories, quality education and independent problem formulation. Consuming the results of science and participating in scientific work are measured separately. This is a contemporary methodological interpretation, not a set of ready-made institutions extracted from a novel.</p>
+<p class="">Such an ideal has limits. We cannot assume that everyone is equally drawn to research or regard service and care work as less dignified. A contemporary project must preserve choice of occupation and way of life, account for caring responsibilities and rest, and recognise differences in capabilities. A vision of the future is useful as a question about expanding opportunities; it is dangerous if it becomes a mandatory standard of the ‘right’ kind of person.</p>
+<h3 id="en-section-25">10.3 The Strugatsky Brothers and the Contradictions of a Knowledge Society</h3>
+<p class="">In Noon: 22nd Century, scientific and creative activity offers an attractive horizon of life [20]. Yet this vision does not imply that substantive conflicts disappear. In a 1962 speech, Arkady Strugatsky explicitly discussed clashes between positive protagonists, each convinced of the validity of their aspirations [48]. For research cooperation, precisely this conflict between legitimate goals matters: a fundamental question, an urgent applied need and fair access may call for different decisions.</p>
+<p class="">Monday Begins on Saturday combines enthusiasm for research with satire of scientific administration and simulated achievement. The Vybegallo storyline allows discussion of how a spectacular experiment and public reporting can replace an understanding of human needs [42]. In contemporary research, the corresponding test distinguishes scientific quality, the volume of reports and promotional visibility. The number of events or demonstrations does not replace independent replication.</p>
+<p class="">Nor should a researcher’s dedication justify unpaid work and chronic overload. This is a normative conclusion of the present paper: a sustainable scientific community requires paid time, technical support and the ability to leave a project. Otherwise, the attractive image of uninterrupted creativity may conceal the actual exclusion of people with family responsibilities or limited resources.</p>
+<p class="">Hard to Be a God raises the problem of unequal knowledge and the power to intervene: superior capabilities offer no simple solution to another society’s historical circumstances [43]. For a cross-border module, this raises a question about the limits of expert paternalism. A partner must not become an object of modernisation whose goals are defined by an external centre. Joint design, the right to refuse and the ability to challenge decisions require institutional form.</p>
+<p class="">In The Time Wanderers, the emergence of the Ludens radicalises differences in abilities and prospects [21]. This fictional premise cannot be used as a forecast of a biological or digital division of humanity. It helps formulate a narrower contemporary question: is access to advanced tools becoming confined to a small group that ceases to notice everyone else’s constraints? Empirical investigation concerns the concentration of resources, training conditions and opportunities to move between professional positions.</p>
+<h3 id="en-section-26">10.4 Lem and the Credibility of Well-Being</h3>
+<p class="">Stanisław Lem’s The Futurological Congress adds a Polish and Eastern European perspective. In the novella, apparent abundance and managed perception cast doubt on access to reality itself. Successive changes in the picture of the world prevent any new unmasking from being accepted as finally reliable knowledge. It is a satire on confidence in a manageable future and on the possibility of replacing solutions to problems with changes in how people perceive them. [46]</p>
+<p class="">Karol Hryniewicz examines The Futurological Congress through utopian and dystopian thinking and the mismatch between technological dynamics and changes in human beings [47]. For this paper, the useful question concerns the limits of expert certainty. Lem is not used here as a predictor of contemporary digital platforms; the connection with them is our analytical analogy.</p>
+<p class="">The proposed methodological conclusion is to distinguish objective conditions, experienced well-being and the freedom of meaningful choice. Self-reported satisfaction matters, but does not establish the availability of healthcare, access to science or the right to refuse. Conversely, researchers have no right to declare people’s positive experiences illusory without evidence. Discrepancies between assessments and observable conditions call for investigation, not a predetermined explanation.</p>
+<p class="">For a digital project, who shapes the visible account of its results is especially important. If the operator defines the success criterion, collects all the data and selects the cases to publish, verification has limited independence. Service logs are therefore compared with surveys of non-users, samples of refusals and observation of the entire process. Rising registration counts or high satisfaction scores do not compensate for the disappearance of an alternative way to obtain a service.</p>
+<p class="">This reading of The Futurological Congress provides a cultural rationale for the technical requirement of reproducibility: society must be able to verify the account of its own development. Open methods, a preserved history of changes and the right to report failure are needed for more than statistical quality. They protect participants’ ability to distinguish a promised opportunity from one they can actually use.</p>
+<h3 id="en-section-27">10.5 The Economics of Utopia and Testable Conclusions</h3>
+<p class="">A fictional model may assume that material scarcity has been overcome, but a real project faces limited time, energy, skills and attention. Even when copying a digital product is cheap, laboratory hours, computing capacity and professional support remain scarce. The allocation of access therefore remains an issue. A cultural ideal of participation must be accompanied by operating-cost calculations and queueing rules.</p>
+<p class="">Comparing these authors yields a set of questions to investigate, rather than a single prescription. Efremov helps pose the question of participation in creative work; the Strugatsky brothers, conflicts of goals, the power of expertise and new divides; Lem, the credibility of the very account of well-being. In research design, the responses are access indicators, substantive scientific assessment, distributional analysis and independent data sources.</p>
+<p class="">In subsequent research on perceptions of the future, literary narratives could serve as discussion material with participants from different countries. Local texts must be included, and participants must be free to reject the proposed canon. The result would be a map of expectations and concerns, not a test of cultural loyalty. Any claim that reading changes attitudes towards cooperation requires a separate design with before-and-after measurement and a suitable comparison group.</p>
+<p class="">It is in this sense that the cultural dimension connects with the economic and scientific-technological dimensions. It asks what infrastructure is being built to achieve and who has the right to judge success. A shared laboratory, digital contract or training programme becomes part of accessible development when it gives people a verifiable opportunity to act, create and change their decisions.</p>
+<p class="">Sovereignty in a modular system requires the ability to change suppliers, transfer data, scrutinise a critical decision and continue operating if external support ceases. At the same time, participants voluntarily constrain some of their own discretion by accepting obligations to partners. Reliable cooperation is impossible without such self-restraint. The exit procedure must protect existing contracts and users, while commercial arbitration does not remove judicial protection of rights.</p>
+<p class="">A project’s professional appeal cannot be separated from trust. Procurement, access conditions and cost allocation must be transparent. Governing bodies need representation of smaller participants and safeguards against unilateral tariff changes. Regional training centres and open interfaces reduce dependence on one capital city or one supplier only when resources are provided for their upkeep.</p>
+<h2 id="en-section-28">11 Conclusions and Research Agenda</h2>
+<p class="">A society of accessible development sets a testable direction for integration: expanding people’s real capabilities while preserving participants’ autonomy. The proposed architecture links national goals to bounded projects, and project outcomes to access for specific groups. Its effectiveness cannot be inferred from the number of agreements, a digitalisation ranking or the mere use of AI.</p>
+<p class="">The formal examples identify two distinct conditions. Shared infrastructure must generate a positive resource outcome over its full life cycle. At the same time, the private cost of participation must allow the organisations for which accessibility is claimed to connect. The first condition does not ensure the second. Investment appraisal, the distribution of benefits and measurement of human capabilities are therefore all necessary.</p>
+<p class="">The expanded framework adds two conditions. Opportunities must include cultural participation and knowledge production, rather than being confined to service consumption. In addition, the assessment of success must be open to independent verification: an operator cannot be the sole source of information about its own project’s benefits. This connects a humanistic vision of the future with a testable research programme.</p>
+<p class="">The research agenda comprises three linked tests: resource savings from the digital contract, regional organisations’ access to scientific infrastructure, and removal of language and organisational barriers to participation. Before data are collected, we cannot claim that these mechanisms operate jointly or uniformly across countries. The next empirical stage must estimate the magnitude and distribution of effects and examine alternative explanations. The document remains a conceptual and methodological study with a reproducible model, not a ready-made justification for large-scale investment.</p>
+<p class="">I am convinced that our countries are destined to live in a shared, conflict-free space, although some may find this view unpopular. In this paper, that statement expresses my moral and strategic orientation, not a law of history. Respect for sovereignty, peaceful resolution of disagreements and projects whose benefits people can verify may bring it closer. Economic interdependence alone does not make conflict impossible.</p>
+<p class="">By 2050, success should be assessed by how far participants’ autonomy has grown and citizens’ life opportunities have expanded. A shared home makes sense if everyone gains a greater future within it—one they have helped create.</p>
+<h2 id="en-section-29">Appendix A. Evidence Status and Quality Checks</h2>
+<p class="">Observed information comprises the 2024 EGDI values, the content and dates of the documents cited, and the existence of published works. Documentary priorities are not equated with policy outcomes. Calculated information comprises participation thresholds, NPV and illustrative coverage paths. Normative propositions concern accessible development, voluntary participation and peaceful coexistence. Causal hypotheses concern the effects of the digital contract, a lower entry price and distributed infrastructure; they require future research.</p>
+<p class="">Quality checks for version 2.0 include verification of arithmetic, consistency of definitions and references to the international sources added. AI was used in preparing and editing the text. Its critical comments do not constitute independent academic peer review: limitations of model-based evaluation are discussed in [19]. In particular, plausible wording does not replace observation, and agreement between several responses is not treated as independent corroboration.</p>
+<p class="">The version is accompanied by model parameters, the historical data snapshot for the first chart, calculation code, results tables, an indicator specification, a register of added sources and a change log. External reviewers are invited to examine the link between cultural freedom and operational measures, the transferability of institutional examples, the completeness of social costs and the assumptions for causal identification. This version does not claim independent external peer review.</p>
+<h2 id="en-section-30">Appendix B. Reproducibility</h2>
+<p class="">The file parameters.json contains the initial assumptions. The script reproduce.py calculates participation thresholds, NPV, scenario shares and variants with gradual adoption, losses and equipment replacement. CSV files retain unrounded values. Built-in checks verify the baseline NPV, the negative result with low savings, the zero result at the coverage threshold and the bounds of scenario shares. The package uses the Python standard library; recreating charts additionally requires matplotlib. The historical EGDI snapshot is provided in a separate CSV with its primary source identified [11].</p>
+<p class="">The calculations do not include a full model of general equilibrium, exchange rates, the government budget or the distribution of benefits between countries. Adoption speeds are not calibrated and scenario probabilities are not estimated. These limitations are material: a file of formulas makes the arithmetic reproducible, but does not turn the underlying assumptions into observed facts.<br>
+</p>
+<h2 id="en-section-31">References</h2>
+<p class="caption">The bibliography of the original version has been retained. The international methodological and literary-studies sources added [24–48] were checked on 17 November 2026. Where a study’s abstract is cited, no conclusions are drawn about unexamined details of its full text. Working materials [22, 23] provide the author’s context, not independent empirical validation; personal data and correspondence are not included in the package.</p>
+<p class="reference" id="en-ref-1">[1] <a href="https://tannerlectures.org/documents/sen80/" target="_blank" rel="noopener">Sen A. Equality of What. Tanner Lecture, 1979; publication, 1980.</a></p>
+<p class="reference" id="en-ref-2">[2] <a href="https://digitallibrary.un.org/nanna/record/3964283/files/WDR2006eng.pdf?registerDownload=1&amp;version=1&amp;withMetadata=0&amp;withWatermark=0" target="_blank" rel="noopener">World Bank. World Development Report 2006: Equity and Development.</a></p>
+<p class="reference" id="en-ref-3">[3] <a href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/" target="_blank" rel="noopener">Ostrom E. Beyond Markets and States: Polycentric Governance of Complex Economic Systems. Nobel Lecture, 2009.</a></p>
+<p class="reference" id="en-ref-4">[4] <a href="https://ora.ox.ac.uk/objects/uuid%3A410bf696-61c2-4d0a-919d-8d8b8968efb6/files/m3c68bc4f0245227669fb8e7c24c5744b" target="_blank" rel="noopener">Alkire S., Foster J. Counting and Multidimensional Poverty Measurement. OPHI Working Paper 32, December 2009.</a></p>
+<p class="reference" id="en-ref-5">[5] <a href="https://www.consultant.ru/document/cons_doc_LAW_475991/" target="_blank" rel="noopener">Russian Federation. Decree No. 309 of 7 May 2024 on national development goals to 2030 and the outlook to 2036. [In Russian.]</a></p>
+<p class="reference" id="en-ref-6">[6] <a href="https://akorda.kz/ru/nacionalnyy-plan-razvitiya-respubliki-kazahstan-do-2029-goda-1592132" target="_blank" rel="noopener">President of Kazakhstan. National Development Plan to 2029, Decree No. 611 of 30 July 2024. [In Russian.]</a></p>
+<p class="reference" id="en-ref-7">[7] <a href="https://lex.uz/ru/acts/8050774" target="_blank" rel="noopener">President of Uzbekistan. Decree UP-21 of 16 February 2026; strategy update for 2026–2030. [In Russian.]</a></p>
+<p class="reference" id="en-ref-8">[8] <a href="https://www.gov.kg/ru/post/s/25958-ministrler-kabinetinin-2026-zylga-is-araketter-plany-bekitildi" target="_blank" rel="noopener">Cabinet of Ministers of the Kyrgyz Republic. Action Plan for 2026 to implement the National Programme to 2030. [In Russian.]</a></p>
+<p class="reference" id="en-ref-9">[9] <a href="https://president.az/en/articles/view/50474/" target="_blank" rel="noopener">Azerbaijan 2030. National Priorities, 2 February 2021. [In Russian.]</a></p>
+<p class="reference" id="en-ref-10">[10] <a href="https://t.me/s/econ_gov_by/5587" target="_blank" rel="noopener">Ministry of Economy of Belarus. Public outline of the National Sustainable Development Strategy to 2040; official channel. [In Russian.]</a></p>
+<p class="reference" id="en-ref-11">[11] <a href="https://desapublications.un.org/sites/default/files/publications/2024-09/(Web%20version)%20E-Government%20Survey%202024%201392024.pdf" target="_blank" rel="noopener">UN DESA. UN E-Government Survey 2024, appendix, country EGDI table, printed pp. 172–179.</a></p>
+<p class="reference" id="en-ref-12">[12] <a href="https://eur-lex.europa.eu/eli/treaty/teu_2016/art_20/oj/eng" target="_blank" rel="noopener">Treaty on European Union. Article 20 on enhanced cooperation.</a></p>
+<p class="reference" id="en-ref-13">[13] <a href="https://realnoevremya.ru/articles/380991-rossiyskaya-ekonomika-gotova-k-perezagruzke" target="_blank" rel="noopener">R. Akhtyamov. ‘The Russian Economy Is Ready for a Reboot’. Realnoe Vremya, 6 February 2026, section ‘The Digital Corridor as an Infrastructure Asset’. [In Russian.]</a></p>
+<p class="reference" id="en-ref-14">[14] <a href="https://digitaleconomylab.ru/edlc" target="_blank" rel="noopener">R. Akhtyamov. Report on digital transport corridors, 15th ‘Russia and Greater Eurasia in the 21st Century’ Forum, CEMI RAS, 9–10 June 2026. Report description and EDLC model. [In Russian.]</a></p>
+<p class="reference" id="en-ref-15">[15] <a href="https://www.iso20022.org/about-iso-20022" target="_blank" rel="noopener">ISO 20022. Purpose of the financial messaging standard.</a></p>
+<p class="reference" id="en-ref-16">[16] <a href="https://www.bis.org/publications/nexus-enabling-instant-cross-border-payments" target="_blank" rel="noopener">BIS. Nexus: Enabling Instant Cross-Border Payments. Architecture and governance, 2024.</a></p>
+<p class="reference" id="en-ref-17">[17] <a href="https://www.nist.gov/blogs/cybersecurity-insights/protecting-model-updates-privacy-preserving-federated-learning" target="_blank" rel="noopener">NIST. Protecting Model Updates in Privacy-Preserving Federated Learning, 2024.</a></p>
+<p class="reference" id="en-ref-18">[18] <a href="https://arxiv.org/abs/1803.09015" target="_blank" rel="noopener">Callaway B., Sant’Anna P. H. C. Difference-in-Differences with Multiple Time Periods. Working paper, revision 2020.</a></p>
+<p class="reference" id="en-ref-19">[19] <a href="https://arxiv.org/abs/2306.05685" target="_blank" rel="noopener">Zheng L. et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS, 2023.</a></p>
+<p class="reference" id="en-ref-20">[20] <a href="https://www.rusf.ru/abs/books/pxxiiv00.htm" target="_blank" rel="noopener">A. and B. Strugatsky. Noon: 22nd Century. Text of the work. [In Russian.]</a></p>
+<p class="reference" id="en-ref-21">[21] <a href="https://www.rusf.ru/abs/books/vgv06.htm" target="_blank" rel="noopener">A. and B. Strugatsky. The Time Wanderers. Concluding documents of the novella. [In Russian.]</a></p>
+<p class="reference" id="en-ref-22">[22] Akhtyamov R. A Digital Contract for Foreign Trade: Payment upon Goods Release. Description for an importer’s treasury, 14 October 2026. Author’s working material. [In Russian.]</p>
+<p class="reference" id="en-ref-23">[23] Digital Economy Lab. Pilot Validation Protocol, version 1.0, September 2026. Author’s working material. [In Russian.]</p>
+<p class="reference" id="en-ref-24">[24] <a href="https://hdr.undp.org/content/human-development-report-2004" target="_blank" rel="noopener">UNDP. Human Development Report 2004. Cultural Liberty in Today’s Diverse World. 2004.</a></p>
+<p class="reference" id="en-ref-25">[25] <a href="https://sts.hks.harvard.edu/research/publications/dreamscapes-of-modernity/" target="_blank" rel="noopener">Jasanoff S., Kim S.-H., eds. Dreamscapes of Modernity. Sociotechnical Imaginaries and the Fabrication of Power. University of Chicago Press, 2015. Description of the research programme.</a></p>
+<p class="reference" id="en-ref-26">[26] <a href="https://whc.unesco.org/en/culture2030indicators/" target="_blank" rel="noopener">UNESCO. Culture|2030 Indicators. Thematic Indicators for Culture in the 2030 Agenda. 2019.</a></p>
+<p class="reference" id="en-ref-27">[27] <a href="https://digitallibrary.un.org/record/1494609" target="_blank" rel="noopener">Miller R., ed. Transforming the Future. Anticipation in the 21st Century. UNESCO/Routledge, 2018.</a></p>
+<p class="reference" id="en-ref-28">[28] <a href="https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html" target="_blank" rel="noopener">OECD. Frascati Manual 2015. Guidelines for Collecting and Reporting Data on Research and Experimental Development. 2015. DOI 10.1787/9789264239012-en.</a></p>
+<p class="reference" id="en-ref-29">[29] <a href="https://www.oecd.org/en/publications/oslo-manual-2018_9789264304604-en.html" target="_blank" rel="noopener">OECD/Eurostat. Oslo Manual 2018. Guidelines for Collecting, Reporting and Using Data on Innovation. 4th ed. 2018. DOI 10.1787/9789264304604-en.</a></p>
+<p class="reference" id="en-ref-30">[30] <a href="https://www.unesco.org/en/legal-affairs/recommendation-open-science" target="_blank" rel="noopener">UNESCO. Recommendation on Open Science. Adopted on 23 November 2021.</a></p>
+<p class="reference" id="en-ref-31">[31] <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener">Wilkinson M. D. et al. The FAIR Guiding Principles for Scientific Data Management and Stewardship. Scientific Data 3, 160018, 2016. DOI 10.1038/sdata.2016.18.</a></p>
+<p class="reference" id="en-ref-32">[32] <a href="https://www.nature.com/articles/520429a" target="_blank" rel="noopener">Hicks D., Wouters P., Waltman L., de Rijcke S., Rafols I. Bibliometrics: The Leiden Manifesto for Research Metrics. Nature 520, 429–431, 2015. DOI 10.1038/520429a.</a></p>
+<p class="reference" id="en-ref-33">[33] <a href="https://www.sesame.org.jo/for-users/user-guide/sesame-user-policy" target="_blank" rel="noopener">SESAME. User Policy. Version incorporating amendments of May 2024, sections III and V.</a></p>
+<p class="reference" id="en-ref-34">[34] <a href="https://www.oecd.org/en/publications/frontier-firms-technology-diffusion-and-public-policy_5jrql2q2jj7b-en.html" target="_blank" rel="noopener">Andrews D., Criscuolo C., Gal P. N. Frontier Firms, Technology Diffusion and Public Policy. Micro Evidence from OECD Countries. OECD Productivity Working Papers No. 2, 2015. DOI 10.1787/5jrql2q2jj7b-en.</a></p>
+<p class="reference" id="en-ref-35">[35] <a href="https://jaspers.eib.org/knowledge/publications/economic-appraisal-vademecum-2021-2027-general-principles-and-sector-applications" target="_blank" rel="noopener">European Commission DG REGIO, JASPERS. Economic Appraisal Vademecum 2021–2027. General Principles and Sector Applications. 2021.</a></p>
+<p class="reference" id="en-ref-36">[36] <a href="https://arxiv.org/abs/1603.00886" target="_blank" rel="noopener">Florio M., Forte S., Sirtori E. Forecasting the Socio-Economic Impact of the Large Hadron Collider. A Cost–Benefit Analysis to 2025 and Beyond. Technological Forecasting and Social Change 112, 38–53, 2016. DOI 10.1016/j.techfore.2016.03.007.</a></p>
+<p class="reference" id="en-ref-37">[37] <a href="https://www.oecd.org/en/publications/monitoring-and-evaluation-of-mission-oriented-innovation-policies_5e4c3204-en.html" target="_blank" rel="noopener">Larrue P., Tõnurist P., Jonason D. Monitoring and Evaluation of Mission-Oriented Innovation Policies. From Theory to Practice. OECD Science, Technology and Industry Working Papers, 2024. DOI 10.1787/5e4c3204-en.</a></p>
+<p class="reference" id="en-ref-38">[38] <a href="https://www.oecd.org/en/publications/mission-oriented-innovation-policies-for-net-zero_5efdbc5c-en.html" target="_blank" rel="noopener">OECD. Mission-Oriented Innovation Policies for Net Zero. How Can Countries Implement Missions to Achieve Climate Targets? 2024. DOI 10.1787/5efdbc5c-en.</a></p>
+<p class="reference" id="en-ref-39">[39] <a href="https://www.oecd.org/en/topics/sub-issues/trade-in-value-added.html" target="_blank" rel="noopener">OECD. Trade in Value-Added. Methodological description of TiVA indicators and inter-country input–output tables. Accessed 17 November 2026.</a></p>
+<p class="reference" id="en-ref-40">[40] <a href="https://publications.iadb.org/en/impact-evaluation-practice-second-edition" target="_blank" rel="noopener">Gertler P. J., Martinez S., Premand P., Rawlings L. B., Vermeersch C. M. J. Impact Evaluation in Practice. 2nd ed. World Bank/Inter-American Development Bank, 2016.</a></p>
+<p class="reference" id="en-ref-41">[41] <a href="https://ast.ru/book/tumannost-andromedy-chas-byka-044955/" target="_blank" rel="noopener">Efremov I. A. Andromeda. The Bull’s Hour. Edition details and descriptions of the works. AST Publishing House. [In Russian.]</a></p>
+<p class="reference" id="en-ref-42">[42] <a href="https://www.rusf.ru/abs/books/pnvs100.htm" target="_blank" rel="noopener">Strugatsky A. and B. Monday Begins on Saturday. Text of the work, the authors’ official website. [In Russian.]</a></p>
+<p class="reference" id="en-ref-43">[43] <a href="https://www.rusf.ru/abs/books/tbb100.htm" target="_blank" rel="noopener">Strugatsky A. and B. Hard to Be a God. Text of the work, the authors’ official website. [In Russian.]</a></p>
+<p class="reference" id="en-ref-44">[44] <a href="https://www.cambridge.org/core/journals/slavic-review/article/abs/how-nauchnaia-fantastika-was-made-the-debates-about-the-genre-of-science-fiction-from-nep-to-high-stalinism/E30EE4A139EFFB8A649C4A1412FE62F0" target="_blank" rel="noopener">Schwartz M. How Nauchnaia Fantastika Was Made. The Debates about the Genre of Science Fiction from NEP to High Stalinism. Slavic Review 72(2), 224–246, 2013. DOI 10.5612/slavicreview.72.2.0224. Abstract consulted.</a></p>
+<p class="reference" id="en-ref-45">[45] <a href="https://www.weslpress.org/9780819573346/we-modern-people/" target="_blank" rel="noopener">Banerjee A. We Modern People. Science Fiction and the Making of Russian Modernity. Wesleyan University Press, 2013. Publisher’s description of the book.</a></p>
+<p class="reference" id="en-ref-46">[46] <a href="https://lem.pl/en/works/novels/the-futurological-congress" target="_blank" rel="noopener">Lem S. The Futurological Congress. Excerpt, author’s commentary and description on Stanisław Lem’s official website.</a></p>
+<p class="reference" id="en-ref-47">[47] <a href="https://czasopisma.ignatianum.edu.pl/pk/article/view/2502" target="_blank" rel="noopener">Hryniewicz K. Stanisława Lema archeologia przyszłości. Przypadek Kongresu futurologicznego [Stanisław Lem’s Archaeology of the Future: The Case of The Futurological Congress]. Perspektywy Kultury 51(4), 245–258, 2025. DOI 10.35765/pk.2025.5104.16. Abstract consulted. [In Polish.]</a></p>
+<p class="reference" id="en-ref-48">[48] <a href="https://www.rusf.ru/abs/books/publ02.htm" target="_blank" rel="noopener">Strugatsky A. The Satisfaction of Human Spiritual Needs Will Be the Driving Force of Future Society. Speech at the ‘Humanity and the Future’ meeting. Tekhnika—Molodyozhi, 1962, No. 12; electronic publication. [In Russian.]</a></p><section class="materials" id="en-materials"><h2>Code, Parameters and Data</h2><div class="quicklinks"><a href="https://github.com/rav11l/accessible-development" target="_blank" rel="noopener">GitHub · code and data ↗</a><a href="https://doi.org/10.5281/zenodo.24319580" target="_blank" rel="noopener">Zenodo · archive and DOI ↗</a></div><p>Code, parameters and data are available on GitHub; the release archive is preserved on Zenodo. To reproduce the calculations, download the package, open the research folder and run <code>python reproduce.py</code>.</p></section><section id="en-citation"><h2>How to Cite</h2><p class="citation">Akhtyamov R. A Society of Accessible Development: Modular Integration and Expanding Human Capabilities in Eurasia. Digital Economy Lab, WP-2026-10, version 2.0, 2026. English translation, 18 November 2026. <a href="https://digitaleconomylab.ru/wp-2026-10?lang=en">digitaleconomylab.ru/wp-2026-10</a>.</p><p class="meta">DOI: <a href="https://doi.org/10.5281/zenodo.24319580" target="_blank" rel="noopener">10.5281/zenodo.24319580</a> · <a href="https://orcid.org/0000-0002-0783-8573" target="_blank" rel="noopener">ORCID 0000-0002-0783-8573</a></p></section></div><footer>© 2026 Ravil Akhtyamov / Digital Economy Lab. Author’s text: CC BY 4.0; code: MIT. Rights to cited works and third-party materials remain with their respective rights holders. <a href="#en-contents">Back to contents ↑</a></footer></div></article></body></html>
